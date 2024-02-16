@@ -1,0 +1,1078 @@
+import styled, { keyframes } from 'styled-components';
+
+import bg1 from "../../../assets/images/bg1.webp"
+import bg2 from "../../../assets/images/bg2.webp"
+
+import wassieIdle1 from "./idlespritesnopack.png"
+import outer from "../../../assets/images/cloudtest.png"
+import wassieRun1 from "./runpritesnopack.png"
+import wassieEnd1 from "./endpritesnopack.png";
+
+const moveGradient = keyframes`
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+`;
+
+const ball = keyframes`
+  0% { background-position: 0% 0%;  }
+  1.6666666666666667% { background-position: 5.2631578947368425% 0%;  }
+  3.3333333333333335% { background-position: 10.526315789473685% 0%;  }
+  5% { background-position: 15.789473684210526% 0%;  }
+  6.666666666666667% { background-position: 21.05263157894737% 0%;  }
+  8.333333333333332% { background-position: 26.31578947368421% 0%;  }
+  10% { background-position: 31.57894736842105% 0%;  }
+  11.666666666666666% { background-position: 36.8421052631579% 0%;  }
+  13.333333333333334% { background-position: 42.10526315789474% 0%;  }
+  15% { background-position: 47.36842105263158% 0%;  }
+  16.666666666666664% { background-position: 52.63157894736842% 0%;  }
+  18.333333333333332% { background-position: 57.89473684210526% 0%;  }
+  20% { background-position: 63.1578947368421% 0%;  }
+  21.666666666666668% { background-position: 68.42105263157895% 0%;  }
+  23.333333333333332% { background-position: 73.6842105263158% 0%;  }
+  25% { background-position: 78.94736842105263% 0%;  }
+  26.666666666666668% { background-position: 84.21052631578948% 0%;  }
+  28.333333333333332% { background-position: 89.47368421052632% 0%;  }
+  30% { background-position: 94.73684210526316% 0%;  }
+  31.666666666666664% { background-position: 100% 0%;  }
+  33.33333333333333% { background-position: 0% 9.090909090909092%;  }
+  35% { background-position: 5.2631578947368425% 9.090909090909092%;  }
+  36.666666666666664% { background-position: 10.526315789473685% 9.090909090909092%;  }
+  38.333333333333336% { background-position: 15.789473684210526% 9.090909090909092%;  }
+  40% { background-position: 21.05263157894737% 9.090909090909092%;  }
+  41.66666666666667% { background-position: 26.31578947368421% 9.090909090909092%;  }
+  43.333333333333336% { background-position: 31.57894736842105% 9.090909090909092%;  }
+  45% { background-position: 36.8421052631579% 9.090909090909092%;  }
+  46.666666666666664% { background-position: 42.10526315789474% 9.090909090909092%;  }
+  48.333333333333336% { background-position: 47.36842105263158% 9.090909090909092%;  }
+  50% { background-position: 52.63157894736842% 9.090909090909092%;  }
+  51.66666666666667% { background-position: 57.89473684210526% 9.090909090909092%;  }
+  53.333333333333336% { background-position: 63.1578947368421% 9.090909090909092%;  }
+  55.00000000000001% { background-position: 68.42105263157895% 9.090909090909092%;  }
+  56.666666666666664% { background-position: 73.6842105263158% 9.090909090909092%;  }
+  58.333333333333336% { background-position: 78.94736842105263% 9.090909090909092%;  }
+  60% { background-position: 84.21052631578948% 9.090909090909092%;  }
+  61.66666666666667% { background-position: 89.47368421052632% 9.090909090909092%;  }
+  63.33333333333333% { background-position: 94.73684210526316% 9.090909090909092%;  }
+  65% { background-position: 100% 9.090909090909092%;  }
+  66.66666666666666% { background-position: 0% 18.181818181818183%;  }
+  68.33333333333333% { background-position: 5.2631578947368425% 18.181818181818183%;  }
+  70% { background-position: 10.526315789473685% 18.181818181818183%;  }
+  71.66666666666667% { background-position: 15.789473684210526% 18.181818181818183%;  }
+  73.33333333333333% { background-position: 21.05263157894737% 18.181818181818183%;  }
+  75% { background-position: 26.31578947368421% 18.181818181818183%;  }
+  76.66666666666667% { background-position: 31.57894736842105% 18.181818181818183%;  }
+  78.33333333333333% { background-position: 36.8421052631579% 18.181818181818183%;  }
+  80% { background-position: 42.10526315789474% 18.181818181818183%;  }
+  81.66666666666667% { background-position: 47.36842105263158% 18.181818181818183%;  }
+  83.33333333333334% { background-position: 52.63157894736842% 18.181818181818183%;  }
+  85% { background-position: 57.89473684210526% 18.181818181818183%;  }
+  86.66666666666667% { background-position: 63.1578947368421% 18.181818181818183%;  }
+  88.33333333333333% { background-position: 68.42105263157895% 18.181818181818183%;  }
+  90% { background-position: 73.6842105263158% 18.181818181818183%;  }
+  91.66666666666666% { background-position: 78.94736842105263% 18.181818181818183%;  }
+  93.33333333333333% { background-position: 84.21052631578948% 18.181818181818183%;  }
+  95% { background-position: 89.47368421052632% 18.181818181818183%;  }
+  96.66666666666667% { background-position: 94.73684210526316% 18.181818181818183%;  }
+  98.33333333333333% { background-position: 100% 18.181818181818183%;  }
+`;
+
+const idle = keyframes`
+0% { background-position: 0% 27.272727272727273%;  }
+2.2222222222222223% { background-position: 5.2631578947368425% 27.272727272727273%;  }
+4.444444444444445% { background-position: 10.526315789473685% 27.272727272727273%;  }
+6.666666666666667% { background-position: 15.789473684210526% 27.272727272727273%;  }
+8.88888888888889% { background-position: 21.05263157894737% 27.272727272727273%;  }
+11.11111111111111% { background-position: 26.31578947368421% 27.272727272727273%;  }
+13.333333333333334% { background-position: 31.57894736842105% 27.272727272727273%;  }
+15.555555555555555% { background-position: 36.8421052631579% 27.272727272727273%;  }
+17.77777777777778% { background-position: 42.10526315789474% 27.272727272727273%;  }
+20% { background-position: 47.36842105263158% 27.272727272727273%;  }
+22.22222222222222% { background-position: 52.63157894736842% 27.272727272727273%;  }
+24.444444444444443% { background-position: 57.89473684210526% 27.272727272727273%;  }
+26.666666666666668% { background-position: 63.1578947368421% 27.272727272727273%;  }
+28.888888888888886% { background-position: 68.42105263157895% 27.272727272727273%;  }
+31.11111111111111% { background-position: 73.6842105263158% 27.272727272727273%;  }
+33.33333333333333% { background-position: 78.94736842105263% 27.272727272727273%;  }
+35.55555555555556% { background-position: 84.21052631578948% 27.272727272727273%;  }
+37.77777777777778% { background-position: 89.47368421052632% 27.272727272727273%;  }
+40% { background-position: 94.73684210526316% 27.272727272727273%;  }
+42.22222222222222% { background-position: 100% 27.272727272727273%;  }
+44.44444444444444% { background-position: 0% 36.36363636363637%;  }
+46.666666666666664% { background-position: 5.2631578947368425% 36.36363636363637%;  }
+48.888888888888886% { background-position: 10.526315789473685% 36.36363636363637%;  }
+51.11111111111111% { background-position: 15.789473684210526% 36.36363636363637%;  }
+53.333333333333336% { background-position: 21.05263157894737% 36.36363636363637%;  }
+55.55555555555556% { background-position: 26.31578947368421% 36.36363636363637%;  }
+57.77777777777777% { background-position: 31.57894736842105% 36.36363636363637%;  }
+60% { background-position: 36.8421052631579% 36.36363636363637%;  }
+62.22222222222222% { background-position: 42.10526315789474% 36.36363636363637%;  }
+64.44444444444444% { background-position: 47.36842105263158% 36.36363636363637%;  }
+66.66666666666666% { background-position: 52.63157894736842% 36.36363636363637%;  }
+68.88888888888889% { background-position: 57.89473684210526% 36.36363636363637%;  }
+71.11111111111111% { background-position: 63.1578947368421% 36.36363636363637%;  }
+73.33333333333333% { background-position: 68.42105263157895% 36.36363636363637%;  }
+75.55555555555556% { background-position: 73.6842105263158% 36.36363636363637%;  }
+77.77777777777779% { background-position: 78.94736842105263% 36.36363636363637%;  }
+80% { background-position: 84.21052631578948% 36.36363636363637%;  }
+82.22222222222221% { background-position: 89.47368421052632% 36.36363636363637%;  }
+84.44444444444444% { background-position: 94.73684210526316% 36.36363636363637%;  }
+86.66666666666667% { background-position: 100% 36.36363636363637%;  }
+88.88888888888889% { background-position: 0% 45.45454545454545%;  }
+91.11111111111111% { background-position: 5.2631578947368425% 45.45454545454545%;  }
+93.33333333333333% { background-position: 10.526315789473685% 45.45454545454545%;  }
+95.55555555555556% { background-position: 15.789473684210526% 45.45454545454545%;  }
+97.77777777777777% { background-position: 21.05263157894737% 45.45454545454545%;  }
+`;
+
+const idlealt = keyframes`
+0% { background-position: 26.31578947368421% 45.45454545454545%;  }
+0.7407407407407408% { background-position: 31.57894736842105% 45.45454545454545%;  }
+1.4814814814814816% { background-position: 36.8421052631579% 45.45454545454545%;  }
+2.2222222222222223% { background-position: 42.10526315789474% 45.45454545454545%;  }
+2.9629629629629632% { background-position: 47.36842105263158% 45.45454545454545%;  }
+3.7037037037037033% { background-position: 52.63157894736842% 45.45454545454545%;  }
+4.444444444444445% { background-position: 57.89473684210526% 45.45454545454545%;  }
+5.185185185185185% { background-position: 63.1578947368421% 45.45454545454545%;  }
+5.9259259259259265% { background-position: 68.42105263157895% 45.45454545454545%;  }
+6.666666666666667% { background-position: 73.6842105263158% 45.45454545454545%;  }
+7.4074074074074066% { background-position: 78.94736842105263% 45.45454545454545%;  }
+8.148148148148149% { background-position: 84.21052631578948% 45.45454545454545%;  }
+8.88888888888889% { background-position: 89.47368421052632% 45.45454545454545%;  }
+9.62962962962963% { background-position: 94.73684210526316% 45.45454545454545%;  }
+10.37037037037037% { background-position: 100% 45.45454545454545%;  }
+11.11111111111111% { background-position: 0% 54.54545454545455%;  }
+11.851851851851853% { background-position: 5.2631578947368425% 54.54545454545455%;  }
+12.592592592592592% { background-position: 10.526315789473685% 54.54545454545455%;  }
+13.333333333333334% { background-position: 15.789473684210526% 54.54545454545455%;  }
+14.074074074074074% { background-position: 21.05263157894737% 54.54545454545455%;  }
+14.814814814814813% { background-position: 26.31578947368421% 54.54545454545455%;  }
+15.555555555555555% { background-position: 31.57894736842105% 54.54545454545455%;  }
+16.296296296296298% { background-position: 36.8421052631579% 54.54545454545455%;  }
+17.037037037037038% { background-position: 42.10526315789474% 54.54545454545455%;  }
+17.77777777777778% { background-position: 47.36842105263158% 54.54545454545455%;  }
+18.51851851851852% { background-position: 52.63157894736842% 54.54545454545455%;  }
+19.25925925925926% { background-position: 57.89473684210526% 54.54545454545455%;  }
+20% { background-position: 63.1578947368421% 54.54545454545455%;  }
+20.74074074074074% { background-position: 68.42105263157895% 54.54545454545455%;  }
+21.48148148148148% { background-position: 73.6842105263158% 54.54545454545455%;  }
+22.22222222222222% { background-position: 78.94736842105263% 54.54545454545455%;  }
+22.962962962962962% { background-position: 84.21052631578948% 54.54545454545455%;  }
+23.703703703703706% { background-position: 89.47368421052632% 54.54545454545455%;  }
+24.444444444444443% { background-position: 94.73684210526316% 54.54545454545455%;  }
+25.185185185185183% { background-position: 100% 54.54545454545455%;  }
+25.925925925925924% { background-position: 0% 63.63636363636363%;  }
+26.666666666666668% { background-position: 5.2631578947368425% 63.63636363636363%;  }
+27.40740740740741% { background-position: 10.526315789473685% 63.63636363636363%;  }
+28.14814814814815% { background-position: 15.789473684210526% 63.63636363636363%;  }
+28.888888888888886% { background-position: 21.05263157894737% 63.63636363636363%;  }
+29.629629629629626% { background-position: 26.31578947368421% 63.63636363636363%;  }
+30.37037037037037% { background-position: 31.57894736842105% 63.63636363636363%;  }
+31.11111111111111% { background-position: 36.8421052631579% 63.63636363636363%;  }
+31.851851851851855% { background-position: 42.10526315789474% 63.63636363636363%;  }
+32.592592592592595% { background-position: 47.36842105263158% 63.63636363636363%;  }
+33.33333333333333% { background-position: 52.63157894736842% 63.63636363636363%;  }
+34.074074074074076% { background-position: 57.89473684210526% 63.63636363636363%;  }
+34.81481481481482% { background-position: 63.1578947368421% 63.63636363636363%;  }
+35.55555555555556% { background-position: 68.42105263157895% 63.63636363636363%;  }
+36.2962962962963% { background-position: 73.6842105263158% 63.63636363636363%;  }
+37.03703703703704% { background-position: 78.94736842105263% 63.63636363636363%;  }
+37.77777777777778% { background-position: 84.21052631578948% 63.63636363636363%;  }
+38.51851851851852% { background-position: 89.47368421052632% 63.63636363636363%;  }
+39.25925925925926% { background-position: 94.73684210526316% 63.63636363636363%;  }
+40% { background-position: 100% 63.63636363636363%;  }
+40.74074074074074% { background-position: 0% 72.72727272727273%;  }
+41.48148148148148% { background-position: 5.2631578947368425% 72.72727272727273%;  }
+42.22222222222222% { background-position: 10.526315789473685% 72.72727272727273%;  }
+42.96296296296296% { background-position: 15.789473684210526% 72.72727272727273%;  }
+43.7037037037037% { background-position: 21.05263157894737% 72.72727272727273%;  }
+44.44444444444444% { background-position: 26.31578947368421% 72.72727272727273%;  }
+45.18518518518518% { background-position: 31.57894736842105% 72.72727272727273%;  }
+45.925925925925924% { background-position: 36.8421052631579% 72.72727272727273%;  }
+46.666666666666664% { background-position: 42.10526315789474% 72.72727272727273%;  }
+47.40740740740741% { background-position: 47.36842105263158% 72.72727272727273%;  }
+48.148148148148145% { background-position: 52.63157894736842% 72.72727272727273%;  }
+48.888888888888886% { background-position: 57.89473684210526% 72.72727272727273%;  }
+49.629629629629626% { background-position: 63.1578947368421% 72.72727272727273%;  }
+50.37037037037037% { background-position: 68.42105263157895% 72.72727272727273%;  }
+51.11111111111111% { background-position: 73.6842105263158% 72.72727272727273%;  }
+51.85185185185185% { background-position: 78.94736842105263% 72.72727272727273%;  }
+52.59259259259259% { background-position: 84.21052631578948% 72.72727272727273%;  }
+53.333333333333336% { background-position: 89.47368421052632% 72.72727272727273%;  }
+54.074074074074076% { background-position: 94.73684210526316% 72.72727272727273%;  }
+54.81481481481482% { background-position: 100% 72.72727272727273%;  }
+55.55555555555556% { background-position: 0% 81.81818181818181%;  }
+56.2962962962963% { background-position: 5.2631578947368425% 81.81818181818181%;  }
+57.03703703703704% { background-position: 10.526315789473685% 81.81818181818181%;  }
+57.77777777777777% { background-position: 15.789473684210526% 81.81818181818181%;  }
+58.51851851851851% { background-position: 21.05263157894737% 81.81818181818181%;  }
+59.25925925925925% { background-position: 26.31578947368421% 81.81818181818181%;  }
+60% { background-position: 31.57894736842105% 81.81818181818181%;  }
+60.74074074074074% { background-position: 36.8421052631579% 81.81818181818181%;  }
+61.48148148148148% { background-position: 42.10526315789474% 81.81818181818181%;  }
+62.22222222222222% { background-position: 47.36842105263158% 81.81818181818181%;  }
+62.96296296296296% { background-position: 52.63157894736842% 81.81818181818181%;  }
+63.70370370370371% { background-position: 57.89473684210526% 81.81818181818181%;  }
+64.44444444444444% { background-position: 63.1578947368421% 81.81818181818181%;  }
+65.18518518518519% { background-position: 68.42105263157895% 81.81818181818181%;  }
+65.92592592592592% { background-position: 73.6842105263158% 81.81818181818181%;  }
+66.66666666666666% { background-position: 78.94736842105263% 81.81818181818181%;  }
+67.4074074074074% { background-position: 84.21052631578948% 81.81818181818181%;  }
+68.14814814814815% { background-position: 89.47368421052632% 81.81818181818181%;  }
+68.88888888888889% { background-position: 94.73684210526316% 81.81818181818181%;  }
+69.62962962962963% { background-position: 100% 81.81818181818181%;  }
+70.37037037037037% { background-position: 0% 90.9090909090909%;  }
+71.11111111111111% { background-position: 5.2631578947368425% 90.9090909090909%;  }
+71.85185185185186% { background-position: 10.526315789473685% 90.9090909090909%;  }
+72.5925925925926% { background-position: 15.789473684210526% 90.9090909090909%;  }
+73.33333333333333% { background-position: 21.05263157894737% 90.9090909090909%;  }
+74.07407407407408% { background-position: 26.31578947368421% 90.9090909090909%;  }
+74.81481481481481% { background-position: 31.57894736842105% 90.9090909090909%;  }
+75.55555555555556% { background-position: 36.8421052631579% 90.9090909090909%;  }
+76.29629629629629% { background-position: 42.10526315789474% 90.9090909090909%;  }
+77.03703703703704% { background-position: 47.36842105263158% 90.9090909090909%;  }
+77.77777777777779% { background-position: 52.63157894736842% 90.9090909090909%;  }
+78.51851851851852% { background-position: 57.89473684210526% 90.9090909090909%;  }
+79.25925925925927% { background-position: 63.1578947368421% 90.9090909090909%;  }
+80% { background-position: 68.42105263157895% 90.9090909090909%;  }
+80.74074074074075% { background-position: 73.6842105263158% 90.9090909090909%;  }
+81.48148148148148% { background-position: 78.94736842105263% 90.9090909090909%;  }
+82.22222222222221% { background-position: 84.21052631578948% 90.9090909090909%;  }
+82.96296296296296% { background-position: 89.47368421052632% 90.9090909090909%;  }
+83.7037037037037% { background-position: 94.73684210526316% 90.9090909090909%;  }
+84.44444444444444% { background-position: 100% 90.9090909090909%;  }
+85.18518518518519% { background-position: 0% 100%;  }
+85.92592592592592% { background-position: 5.2631578947368425% 100%;  }
+86.66666666666667% { background-position: 10.526315789473685% 100%;  }
+87.4074074074074% { background-position: 15.789473684210526% 100%;  }
+88.14814814814815% { background-position: 21.05263157894737% 100%;  }
+88.88888888888889% { background-position: 26.31578947368421% 100%;  }
+89.62962962962962% { background-position: 31.57894736842105% 100%;  }
+90.37037037037037% { background-position: 36.8421052631579% 100%;  }
+91.11111111111111% { background-position: 42.10526315789474% 100%;  }
+91.85185185185185% { background-position: 47.36842105263158% 100%;  }
+92.5925925925926% { background-position: 52.63157894736842% 100%;  }
+93.33333333333333% { background-position: 57.89473684210526% 100%;  }
+94.07407407407408% { background-position: 63.1578947368421% 100%;  }
+94.81481481481482% { background-position: 68.42105263157895% 100%;  }
+95.55555555555556% { background-position: 73.6842105263158% 100%;  }
+96.29629629629629% { background-position: 78.94736842105263% 100%;  }
+97.03703703703704% { background-position: 84.21052631578948% 100%;  }
+97.77777777777777% { background-position: 89.47368421052632% 100%;  }
+98.51851851851852% { background-position: 94.73684210526316% 100%;  }
+99.25925925925925% { background-position: 100% 100%;  }
+`;
+
+const lightning = keyframes`
+0% { background-position: 0% 0%;  }
+0.8695652173913043% { background-position: 5% 0%;  }
+1.7391304347826086% { background-position: 10% 0%;  }
+2.608695652173913% { background-position: 15% 0%;  }
+3.4782608695652173% { background-position: 20% 0%;  }
+4.3478260869565215% { background-position: 25% 0%;  }
+5.217391304347826% { background-position: 30% 0%;  }
+6.086956521739131% { background-position: 35% 0%;  }
+6.956521739130435% { background-position: 40% 0%;  }
+7.82608695652174% { background-position: 45% 0%;  }
+8.695652173913043% { background-position: 50% 0%;  }
+9.565217391304348% { background-position: 55% 0%;  }
+10.434782608695652% { background-position: 60% 0%;  }
+11.304347826086957% { background-position: 65% 0%;  }
+12.173913043478262% { background-position: 70% 0%;  }
+13.043478260869565% { background-position: 75% 0%;  }
+13.91304347826087% { background-position: 80% 0%;  }
+14.782608695652174% { background-position: 85% 0%;  }
+15.65217391304348% { background-position: 90% 0%;  }
+16.52173913043478% { background-position: 95% 0%;  }
+17.391304347826086% { background-position: 100% 0%;  }
+18.26086956521739% { background-position: 0% 5%;  }
+19.130434782608695% { background-position: 5% 5%;  }
+20% { background-position: 10% 5%;  }
+20.869565217391305% { background-position: 15% 5%;  }
+21.73913043478261% { background-position: 20% 5%;  }
+22.608695652173914% { background-position: 25% 5%;  }
+23.47826086956522% { background-position: 30% 5%;  }
+24.347826086956523% { background-position: 35% 5%;  }
+25.217391304347824% { background-position: 40% 5%;  }
+26.08695652173913% { background-position: 45% 5%;  }
+26.956521739130434% { background-position: 50% 5%;  }
+27.82608695652174% { background-position: 55% 5%;  }
+28.695652173913043% { background-position: 60% 5%;  }
+29.565217391304348% { background-position: 65% 5%;  }
+30.434782608695656% { background-position: 70% 5%;  }
+31.30434782608696% { background-position: 75% 5%;  }
+32.17391304347826% { background-position: 80% 5%;  }
+33.04347826086956% { background-position: 85% 5%;  }
+33.91304347826087% { background-position: 90% 5%;  }
+34.78260869565217% { background-position: 95% 5%;  }
+35.65217391304348% { background-position: 100% 5%;  }
+36.52173913043478% { background-position: 0% 10%;  }
+37.391304347826086% { background-position: 5% 10%;  }
+38.26086956521739% { background-position: 10% 10%;  }
+39.130434782608695% { background-position: 15% 10%;  }
+40% { background-position: 20% 10%;  }
+40.869565217391305% { background-position: 25% 10%;  }
+41.73913043478261% { background-position: 30% 10%;  }
+42.608695652173914% { background-position: 35% 10%;  }
+43.47826086956522% { background-position: 40% 10%;  }
+44.34782608695652% { background-position: 45% 10%;  }
+45.21739130434783% { background-position: 50% 10%;  }
+46.08695652173913% { background-position: 55% 10%;  }
+46.95652173913044% { background-position: 60% 10%;  }
+47.82608695652174% { background-position: 65% 10%;  }
+48.69565217391305% { background-position: 70% 10%;  }
+49.56521739130435% { background-position: 75% 10%;  }
+50.43478260869565% { background-position: 80% 10%;  }
+51.30434782608696% { background-position: 85% 10%;  }
+52.17391304347826% { background-position: 90% 10%;  }
+53.04347826086957% { background-position: 95% 10%;  }
+53.91304347826087% { background-position: 100% 10%;  }
+54.78260869565217% { background-position: 0% 15%;  }
+55.65217391304348% { background-position: 5% 15%;  }
+56.52173913043478% { background-position: 10% 15%;  }
+57.391304347826086% { background-position: 15% 15%;  }
+58.26086956521739% { background-position: 20% 15%;  }
+59.130434782608695% { background-position: 25% 15%;  }
+60% { background-position: 30% 15%;  }
+60.86956521739131% { background-position: 35% 15%;  }
+61.73913043478261% { background-position: 40% 15%;  }
+62.60869565217392% { background-position: 45% 15%;  }
+63.47826086956522% { background-position: 50% 15%;  }
+64.34782608695652% { background-position: 55% 15%;  }
+65.21739130434783% { background-position: 60% 15%;  }
+66.08695652173913% { background-position: 65% 15%;  }
+66.95652173913044% { background-position: 70% 15%;  }
+67.82608695652173% { background-position: 75% 15%;  }
+68.69565217391305% { background-position: 80% 15%;  }
+69.56521739130434% { background-position: 85% 15%;  }
+70.43478260869566% { background-position: 90% 15%;  }
+71.30434782608695% { background-position: 95% 15%;  }
+72.17391304347827% { background-position: 100% 15%;  }
+73.04347826086956% { background-position: 0% 20%;  }
+73.91304347826086% { background-position: 5% 20%;  }
+74.78260869565217% { background-position: 10% 20%;  }
+75.65217391304347% { background-position: 15% 20%;  }
+76.52173913043478% { background-position: 20% 20%;  }
+77.39130434782608% { background-position: 25% 20%;  }
+78.26086956521739% { background-position: 90% 10%;  }
+79.13043478260869% { background-position: 95% 10%;  }
+80% { background-position: 100% 10%;  }
+80.8695652173913% { background-position: 0% 15%;  }
+81.73913043478261% { background-position: 5% 15%;  }
+82.6086956521739% { background-position: 10% 15%;  }
+83.47826086956522% { background-position: 15% 15%;  }
+84.34782608695653% { background-position: 20% 15%;  }
+85.21739130434783% { background-position: 25% 15%;  }
+86.08695652173914% { background-position: 30% 15%;  }
+86.95652173913044% { background-position: 35% 15%;  }
+87.82608695652175% { background-position: 40% 15%;  }
+88.69565217391305% { background-position: 45% 15%;  }
+89.56521739130436% { background-position: 50% 15%;  }
+90.43478260869566% { background-position: 55% 15%;  }
+91.30434782608695% { background-position: 30% 20%;  }
+92.17391304347827% { background-position: 35% 20%;  }
+93.04347826086956% { background-position: 40% 20%;  }
+93.91304347826087% { background-position: 45% 20%;  }
+94.78260869565217% { background-position: 50% 20%;  }
+95.65217391304348% { background-position: 55% 20%;  }
+96.52173913043478% { background-position: 60% 20%;  }
+97.3913043478261% { background-position: 65% 20%;  }
+98.26086956521739% { background-position: 70% 20%;  }
+99.1304347826087% { background-position: 75% 20%;  }
+`;
+
+const run = keyframes`
+0% { background-position: 0% 0%;  }
+2.2222222222222223% { background-position: 5% 0%;  }
+4.444444444444445% { background-position: 10% 0%;  }
+6.666666666666667% { background-position: 15% 0%;  }
+8.88888888888889% { background-position: 20% 0%;  }
+11.11111111111111% { background-position: 25% 0%;  }
+13.333333333333334% { background-position: 30% 0%;  }
+15.555555555555555% { background-position: 35% 0%;  }
+17.77777777777778% { background-position: 40% 0%;  }
+20% { background-position: 45% 0%;  }
+22.22222222222222% { background-position: 50% 0%;  }
+24.444444444444443% { background-position: 55% 0%;  }
+26.666666666666668% { background-position: 60% 0%;  }
+28.888888888888886% { background-position: 65% 0%;  }
+31.11111111111111% { background-position: 70% 0%;  }
+33.33333333333333% { background-position: 75% 0%;  }
+35.55555555555556% { background-position: 80% 0%;  }
+37.77777777777778% { background-position: 85% 0%;  }
+40% { background-position: 90% 0%;  }
+42.22222222222222% { background-position: 95% 0%;  }
+44.44444444444444% { background-position: 100% 0%;  }
+46.666666666666664% { background-position: 0% 5%;  }
+48.888888888888886% { background-position: 5% 5%;  }
+51.11111111111111% { background-position: 10% 5%;  }
+53.333333333333336% { background-position: 15% 5%;  }
+55.55555555555556% { background-position: 20% 5%;  }
+57.77777777777777% { background-position: 25% 5%;  }
+60% { background-position: 30% 5%;  }
+62.22222222222222% { background-position: 35% 5%;  }
+64.44444444444444% { background-position: 40% 5%;  }
+66.66666666666666% { background-position: 45% 5%;  }
+68.88888888888889% { background-position: 50% 5%;  }
+71.11111111111111% { background-position: 55% 5%;  }
+73.33333333333333% { background-position: 60% 5%;  }
+75.55555555555556% { background-position: 65% 5%;  }
+77.77777777777779% { background-position: 70% 5%;  }
+80% { background-position: 75% 5%;  }
+82.22222222222221% { background-position: 80% 5%;  }
+84.44444444444444% { background-position: 85% 5%;  }
+86.66666666666667% { background-position: 90% 5%;  }
+88.88888888888889% { background-position: 95% 5%;  }
+91.11111111111111% { background-position: 100% 5%;  }
+93.33333333333333% { background-position: 0% 10%;  }
+95.55555555555556% { background-position: 5% 10%;  }
+97.77777777777777% { background-position: 10% 10%;  }
+`;
+
+const rugpull = keyframes`
+0% { background-position: 5% 5%;  }
+1.0204081632653061% { background-position: 80% 20%;  }
+2.0408163265306123% { background-position: 85% 20%;  }
+3.061224489795918% { background-position: 90% 20%;  }
+4.081632653061225% { background-position: 95% 20%;  }
+5.1020408163265305% { background-position: 100% 20%;  }
+6.122448979591836% { background-position: 0% 25%;  }
+7.142857142857142% { background-position: 5% 25%;  }
+8.16326530612245% { background-position: 10% 25%;  }
+9.183673469387756% { background-position: 15% 25%;  }
+10.204081632653061% { background-position: 20% 25%;  }
+11.224489795918368% { background-position: 25% 25%;  }
+12.244897959183673% { background-position: 30% 25%;  }
+13.26530612244898% { background-position: 35% 25%;  }
+14.285714285714285% { background-position: 40% 25%;  }
+15.306122448979592% { background-position: 45% 25%;  }
+16.3265306122449% { background-position: 50% 25%;  }
+17.346938775510203% { background-position: 55% 25%;  }
+18.367346938775512% { background-position: 60% 25%;  }
+19.387755102040817% { background-position: 65% 25%;  }
+20.408163265306122% { background-position: 70% 25%;  }
+21.428571428571427% { background-position: 75% 25%;  }
+22.448979591836736% { background-position: 80% 25%;  }
+23.46938775510204% { background-position: 85% 25%;  }
+24.489795918367346% { background-position: 90% 25%;  }
+25.510204081632654% { background-position: 95% 25%;  }
+26.53061224489796% { background-position: 100% 25%;  }
+27.55102040816326% { background-position: 0% 30%;  }
+28.57142857142857% { background-position: 5% 30%;  }
+29.591836734693878% { background-position: 10% 30%;  }
+30.612244897959183% { background-position: 15% 30%;  }
+31.63265306122449% { background-position: 20% 30%;  }
+32.6530612244898% { background-position: 25% 30%;  }
+33.6734693877551% { background-position: 30% 30%;  }
+34.69387755102041% { background-position: 35% 30%;  }
+35.714285714285715% { background-position: 40% 30%;  }
+36.734693877551024% { background-position: 45% 30%;  }
+37.755102040816325% { background-position: 50% 30%;  }
+38.775510204081634% { background-position: 55% 30%;  }
+39.795918367346935% { background-position: 60% 30%;  }
+40.816326530612244% { background-position: 65% 30%;  }
+41.83673469387755% { background-position: 70% 30%;  }
+42.857142857142854% { background-position: 75% 30%;  }
+43.87755102040816% { background-position: 80% 30%;  }
+44.89795918367347% { background-position: 85% 30%;  }
+45.91836734693878% { background-position: 90% 30%;  }
+46.93877551020408% { background-position: 95% 30%;  }
+47.95918367346938% { background-position: 100% 30%;  }
+48.97959183673469% { background-position: 0% 35%;  }
+50% { background-position: 5% 35%;  }
+51.02040816326531% { background-position: 10% 35%;  }
+52.04081632653062% { background-position: 15% 35%;  }
+53.06122448979592% { background-position: 20% 35%;  }
+54.08163265306123% { background-position: 25% 35%;  }
+55.10204081632652% { background-position: 30% 35%;  }
+56.12244897959183% { background-position: 35% 35%;  }
+57.14285714285714% { background-position: 40% 35%;  }
+58.16326530612245% { background-position: 45% 35%;  }
+59.183673469387756% { background-position: 50% 35%;  }
+60.204081632653065% { background-position: 55% 35%;  }
+61.224489795918366% { background-position: 60% 35%;  }
+62.244897959183675% { background-position: 65% 35%;  }
+63.26530612244898% { background-position: 70% 35%;  }
+64.28571428571429% { background-position: 75% 35%;  }
+65.3061224489796% { background-position: 80% 35%;  }
+66.3265306122449% { background-position: 85% 35%;  }
+67.3469387755102% { background-position: 90% 35%;  }
+68.36734693877551% { background-position: 95% 35%;  }
+69.38775510204081% { background-position: 100% 35%;  }
+70.40816326530613% { background-position: 0% 40%;  }
+71.42857142857143% { background-position: 5% 40%;  }
+72.44897959183673% { background-position: 10% 40%;  }
+73.46938775510205% { background-position: 15% 40%;  }
+74.48979591836735% { background-position: 20% 40%;  }
+75.51020408163265% { background-position: 25% 40%;  }
+76.53061224489795% { background-position: 30% 40%;  }
+77.55102040816327% { background-position: 35% 40%;  }
+78.57142857142857% { background-position: 40% 40%;  }
+79.59183673469387% { background-position: 45% 40%;  }
+80.61224489795919% { background-position: 50% 40%;  }
+81.63265306122449% { background-position: 55% 40%;  }
+82.6530612244898% { background-position: 60% 40%;  }
+83.6734693877551% { background-position: 65% 40%;  }
+84.6938775510204% { background-position: 70% 40%;  }
+85.71428571428571% { background-position: 75% 40%;  }
+86.73469387755102% { background-position: 80% 40%;  }
+87.75510204081633% { background-position: 85% 40%;  }
+88.77551020408163% { background-position: 90% 40%;  }
+89.79591836734694% { background-position: 95% 40%;  }
+90.81632653061224% { background-position: 100% 40%;  }
+91.83673469387756% { background-position: 0% 45%;  }
+92.85714285714286% { background-position: 5% 45%;  }
+93.87755102040816% { background-position: 10% 45%;  }
+94.89795918367348% { background-position: 15% 45%;  }
+95.91836734693877% { background-position: 20% 45%;  }
+96.93877551020408% { background-position: 25% 45%;  }
+97.95918367346938% { background-position: 30% 45%;  }
+98.9795918367347% { background-position: 35% 45%;  }
+100% { background-position: 35% 45%;  }
+`;
+
+const speedup = keyframes`
+0% { background-position: 40% 45%; filter: hue-rotate(18deg); }
+5% { background-position: 45% 45%; filter: hue-rotate(36deg); }
+10% { background-position: 50% 45%; filter: hue-rotate(54deg); }
+15% { background-position: 55% 45%; filter: hue-rotate(72deg); }
+20% { background-position: 60% 45%; filter: hue-rotate(90deg); }
+25% { background-position: 65% 45%; filter: hue-rotate(108deg); }
+30% { background-position: 70% 45%; filter: hue-rotate(126deg); }
+35% { background-position: 75% 45%; filter: hue-rotate(144deg); }
+40% { background-position: 80% 45%; filter: hue-rotate(162deg); }
+45% { background-position: 85% 45%; filter: hue-rotate(180deg); }
+50% { background-position: 90% 45%; filter: hue-rotate(198deg); }
+55% { background-position: 95% 45%; filter: hue-rotate(216deg); }
+60% { background-position: 100% 45%; filter: hue-rotate(234deg); }
+65% { background-position: 0% 50%; filter: hue-rotate(252deg); }
+70% { background-position: 5% 50%; filter: hue-rotate(270deg); }
+75% { background-position: 10% 50%; filter: hue-rotate(288deg); }
+80% { background-position: 15% 50%; filter: hue-rotate(306deg); }
+85% { background-position: 20% 50%; filter: hue-rotate(324deg); }
+90% { background-position: 25% 50%; filter: hue-rotate(342deg); }
+95% { background-position: 30% 50%; filter: hue-rotate(360deg); }
+`;
+
+const triprock = keyframes`
+0% { background-position: 35.5868036776636% 50%;  }
+0.6060606060606061% { background-position: 42.347214710654406% 50%;  }
+1.2121212121212122% { background-position: 49.107625743645215% 50%;  }
+1.8181818181818181% { background-position: 55.86803677663602% 50%;  }
+2.4242424242424243% { background-position: 62.62844780962683% 50%;  }
+3.0303030303030303% { background-position: 69.38885884261764% 50%;  }
+3.6363636363636362% { background-position: 76.14926987560844% 50%;  }
+4.242424242424243% { background-position: 82.90968090859924% 50%;  }
+4.848484848484849% { background-position: 89.67009194159004% 50%;  }
+5.454545454545454% { background-position: 96.43050297458086% 50%;  }
+6.0606060606060606% { background-position: 0% 55%;  }
+6.666666666666667% { background-position: 6.760411032990806% 55%;  }
+7.2727272727272725% { background-position: 13.520822065981612% 55%;  }
+7.878787878787878% { background-position: 20.281233098972418% 55%;  }
+8.484848484848486% { background-position: 27.041644131963224% 55%;  }
+9.090909090909092% { background-position: 33.80205516495403% 55%;  }
+9.696969696969697% { background-position: 40.562466197944836% 55%;  }
+10.303030303030303% { background-position: 47.32287723093564% 55%;  }
+10.909090909090908% { background-position: 54.08328826392645% 55%;  }
+11.515151515151516% { background-position: 60.84369929691725% 55%;  }
+12.121212121212121% { background-position: 67.60411032990805% 55%;  }
+12.727272727272727% { background-position: 74.36452136289887% 55%;  }
+13.333333333333334% { background-position: 81.12493239588967% 55%;  }
+13.939393939393941% { background-position: 87.88534342888047% 55%;  }
+14.545454545454545% { background-position: 94.64575446187128% 55%;  }
+15.151515151515152% { background-position: 0% 60%;  }
+15.757575757575756% { background-position: 6.760411032990806% 60%;  }
+16.363636363636363% { background-position: 13.520822065981612% 60%;  }
+16.969696969696972% { background-position: 20.281233098972418% 60%;  }
+17.575757575757574% { background-position: 27.041644131963224% 60%;  }
+18.181818181818183% { background-position: 33.80205516495403% 60%;  }
+18.787878787878785% { background-position: 40.562466197944836% 60%;  }
+19.393939393939394% { background-position: 47.32287723093564% 60%;  }
+20% { background-position: 54.08328826392645% 60%;  }
+20.606060606060606% { background-position: 60.84369929691725% 60%;  }
+21.21212121212121% { background-position: 67.60411032990805% 60%;  }
+21.818181818181817% { background-position: 74.36452136289887% 60%;  }
+22.424242424242426% { background-position: 81.12493239588967% 60%;  }
+23.03030303030303% { background-position: 87.88534342888047% 60%;  }
+23.636363636363637% { background-position: 94.64575446187128% 60%;  }
+24.242424242424242% { background-position: 0% 65%;  }
+24.848484848484848% { background-position: 6.760411032990806% 65%;  }
+25.454545454545453% { background-position: 13.520822065981612% 65%;  }
+26.060606060606062% { background-position: 20.281233098972418% 65%;  }
+26.666666666666668% { background-position: 27.041644131963224% 65%;  }
+27.27272727272727% { background-position: 33.80205516495403% 65%;  }
+27.878787878787882% { background-position: 40.562466197944836% 65%;  }
+28.484848484848484% { background-position: 47.32287723093564% 65%;  }
+29.09090909090909% { background-position: 54.08328826392645% 65%;  }
+29.6969696969697% { background-position: 60.84369929691725% 65%;  }
+30.303030303030305% { background-position: 67.60411032990805% 65%;  }
+30.909090909090907% { background-position: 74.36452136289887% 65%;  }
+31.515151515151512% { background-position: 81.12493239588967% 65%;  }
+32.121212121212125% { background-position: 87.88534342888047% 65%;  }
+32.72727272727273% { background-position: 94.64575446187128% 65%;  }
+33.33333333333333% { background-position: 0% 70%;  }
+33.939393939393945% { background-position: 6.760411032990806% 70%;  }
+34.54545454545455% { background-position: 13.520822065981612% 70%;  }
+35.15151515151515% { background-position: 20.281233098972418% 70%;  }
+35.75757575757576% { background-position: 27.041644131963224% 70%;  }
+36.36363636363637% { background-position: 33.80205516495403% 70%;  }
+36.96969696969697% { background-position: 40.562466197944836% 70%;  }
+37.57575757575757% { background-position: 47.32287723093564% 70%;  }
+38.18181818181819% { background-position: 54.08328826392645% 70%;  }
+38.78787878787879% { background-position: 60.84369929691725% 70%;  }
+39.39393939393939% { background-position: 67.60411032990805% 70%;  }
+40% { background-position: 74.36452136289887% 70%;  }
+40.60606060606061% { background-position: 81.12493239588967% 70%;  }
+41.21212121212121% { background-position: 87.88534342888047% 70%;  }
+41.81818181818181% { background-position: 94.64575446187128% 70%;  }
+42.42424242424242% { background-position: 0% 75%;  }
+43.03030303030303% { background-position: 6.760411032990806% 75%;  }
+43.63636363636363% { background-position: 13.520822065981612% 75%;  }
+44.24242424242424% { background-position: 20.281233098972418% 75%;  }
+44.84848484848485% { background-position: 27.041644131963224% 75%;  }
+45.45454545454545% { background-position: 33.80205516495403% 75%;  }
+46.06060606060606% { background-position: 40.562466197944836% 75%;  }
+46.666666666666664% { background-position: 47.32287723093564% 75%;  }
+47.27272727272727% { background-position: 54.08328826392645% 75%;  }
+47.878787878787875% { background-position: 54.08328826392645% 75%;  }
+48.484848484848484% { background-position: 54.08328826392645% 75%;  }
+49.09090909090909% { background-position: 54.08328826392645% 75%;  }
+49.696969696969695% { background-position: 54.08328826392645% 75%;  }
+50.303030303030305% { background-position: 54.08328826392645% 75%;  }
+50.90909090909091% { background-position: 54.08328826392645% 75%;  }
+51.515151515151516% { background-position: 54.08328826392645% 75%;  }
+52.121212121212125% { background-position: 54.08328826392645% 75%;  }
+52.72727272727272% { background-position: 54.08328826392645% 75%;  }
+53.333333333333336% { background-position: 54.08328826392645% 75%;  }
+53.939393939393945% { background-position: 54.08328826392645% 75%;  }
+54.54545454545454% { background-position: 54.08328826392645% 75%;  }
+55.15151515151515% { background-position: 54.08328826392645% 75%;  }
+55.757575757575765% { background-position: 54.08328826392645% 75%;  }
+56.36363636363636% { background-position: 54.08328826392645% 75%;  }
+56.96969696969697% { background-position: 54.08328826392645% 75%;  }
+57.57575757575758% { background-position: 54.08328826392645% 75%;  }
+58.18181818181818% { background-position: 54.08328826392645% 75%;  }
+58.78787878787879% { background-position: 54.08328826392645% 75%;  }
+59.3939393939394% { background-position: 54.08328826392645% 75%;  }
+60% { background-position: 54.08328826392645% 75%;  }
+60.60606060606061% { background-position: 54.08328826392645% 75%;  }
+61.212121212121204% { background-position: 54.08328826392645% 75%;  }
+61.81818181818181% { background-position: 54.08328826392645% 75%;  }
+62.42424242424243% { background-position: 54.08328826392645% 75%;  }
+63.030303030303024% { background-position: 54.08328826392645% 75%;  }
+63.63636363636363% { background-position: 54.08328826392645% 75%;  }
+64.24242424242425% { background-position: 54.08328826392645% 75%;  }
+64.84848484848484% { background-position: 54.08328826392645% 75%;  }
+65.45454545454545% { background-position: 54.08328826392645% 75%;  }
+66.06060606060606% { background-position: 54.08328826392645% 75%;  }
+66.66666666666666% { background-position: 54.08328826392645% 75%;  }
+67.27272727272727% { background-position: 54.08328826392645% 75%;  }
+67.87878787878789% { background-position: 54.08328826392645% 75%;  }
+68.48484848484848% { background-position: 54.08328826392645% 75%;  }
+69.0909090909091% { background-position: 54.08328826392645% 75%;  }
+69.6969696969697% { background-position: 54.08328826392645% 75%;  }
+70.3030303030303% { background-position: 54.08328826392645% 75%;  }
+70.9090909090909% { background-position: 54.08328826392645% 75%;  }
+71.51515151515152% { background-position: 54.08328826392645% 75%;  }
+72.12121212121212% { background-position: 54.08328826392645% 75%;  }
+72.72727272727273% { background-position: 54.08328826392645% 75%;  }
+73.33333333333333% { background-position: 54.08328826392645% 75%;  }
+73.93939393939394% { background-position: 54.08328826392645% 75%;  }
+74.54545454545455% { background-position: 54.08328826392645% 75%;  }
+75.15151515151514% { background-position: 54.08328826392645% 75%;  }
+75.75757575757575% { background-position: 54.08328826392645% 75%;  }
+76.36363636363637% { background-position: 54.08328826392645% 75%;  }
+76.96969696969697% { background-position: 54.08328826392645% 75%;  }
+77.57575757575758% { background-position: 54.08328826392645% 75%;  }
+78.18181818181819% { background-position: 54.08328826392645% 75%;  }
+78.78787878787878% { background-position: 54.08328826392645% 75%;  }
+79.39393939393939% { background-position: 54.08328826392645% 75%;  }
+80% { background-position: 54.08328826392645% 75%;  }
+80.60606060606061% { background-position: 54.08328826392645% 75%;  }
+81.21212121212122% { background-position: 54.08328826392645% 75%;  }
+81.81818181818183% { background-position: 54.08328826392645% 75%;  }
+82.42424242424242% { background-position: 54.08328826392645% 75%;  }
+83.03030303030303% { background-position: 54.08328826392645% 75%;  }
+83.63636363636363% { background-position: 54.08328826392645% 75%;  }
+84.24242424242424% { background-position: 54.08328826392645% 75%;  }
+84.84848484848484% { background-position: 54.08328826392645% 75%;  }
+85.45454545454545% { background-position: 54.08328826392645% 75%;  }
+86.06060606060606% { background-position: 54.08328826392645% 75%;  }
+86.66666666666667% { background-position: 54.08328826392645% 75%;  }
+87.27272727272727% { background-position: 54.08328826392645% 75%;  }
+87.87878787878788% { background-position: 54.08328826392645% 75%;  }
+88.48484848484848% { background-position: 54.08328826392645% 75%;  }
+89.0909090909091% { background-position: 54.08328826392645% 75%;  }
+89.6969696969697% { background-position: 54.08328826392645% 75%;  }
+90.30303030303031% { background-position: 54.08328826392645% 75%;  }
+90.9090909090909% { background-position: 54.08328826392645% 75%;  }
+91.51515151515152% { background-position: 54.08328826392645% 75%;  }
+92.12121212121212% { background-position: 54.08328826392645% 75%;  }
+92.72727272727272% { background-position: 54.08328826392645% 75%;  }
+93.33333333333333% { background-position: 54.08328826392645% 75%;  }
+93.93939393939394% { background-position: 54.08328826392645% 75%;  }
+94.54545454545455% { background-position: 54.08328826392645% 75%;  }
+95.15151515151516% { background-position: 54.08328826392645% 75%;  }
+95.75757575757575% { background-position: 54.08328826392645% 75%;  }
+96.36363636363636% { background-position: 54.08328826392645% 75%;  }
+96.96969696969697% { background-position: 54.08328826392645% 75%;  }
+97.57575757575758% { background-position: 54.08328826392645% 75%;  }
+98.18181818181819% { background-position: 54.08328826392645% 75%;  }
+98.7878787878788% { background-position: 54.08328826392645% 75%;  }
+99.39393939393939% { background-position: 54.08328826392645% 75%;  }
+100% { background-position: 54.08328826392645% 75%;  }
+`;
+
+const end = keyframes`
+0% { background-position: 0% 0%;  }
+2.2222222222222223% { background-position: 25% 0%;  }
+4.444444444444445% { background-position: 50% 0%;  }
+6.666666666666667% { background-position: 75% 0%;  }
+8.88888888888889% { background-position: 100% 0%;  }
+11.11111111111111% { background-position: 0% 12.5%;  }
+13.333333333333334% { background-position: 25% 12.5%;  }
+15.555555555555555% { background-position: 50% 12.5%;  }
+17.77777777777778% { background-position: 75% 12.5%;  }
+20% { background-position: 100% 12.5%;  }
+22.22222222222222% { background-position: 0% 25%;  }
+24.444444444444443% { background-position: 25% 25%;  }
+26.666666666666668% { background-position: 50% 25%;  }
+28.888888888888886% { background-position: 75% 25%;  }
+31.11111111111111% { background-position: 100% 25%;  }
+33.33333333333333% { background-position: 0% 37.5%;  }
+35.55555555555556% { background-position: 25% 37.5%;  }
+37.77777777777778% { background-position: 50% 37.5%;  }
+40% { background-position: 75% 37.5%;  }
+42.22222222222222% { background-position: 100% 37.5%;  }
+44.44444444444444% { background-position: 0% 50%;  }
+46.666666666666664% { background-position: 25% 50%;  }
+48.888888888888886% { background-position: 50% 50%;  }
+51.11111111111111% { background-position: 75% 50%;  }
+53.333333333333336% { background-position: 100% 50%;  }
+55.55555555555556% { background-position: 0% 62.5%;  }
+57.77777777777777% { background-position: 25% 62.5%;  }
+60% { background-position: 50% 62.5%;  }
+62.22222222222222% { background-position: 75% 62.5%;  }
+64.44444444444444% { background-position: 100% 62.5%;  }
+66.66666666666666% { background-position: 0% 75%;  }
+68.88888888888889% { background-position: 25% 75%;  }
+71.11111111111111% { background-position: 50% 75%;  }
+73.33333333333333% { background-position: 75% 75%;  }
+75.55555555555556% { background-position: 100% 75%;  }
+77.77777777777779% { background-position: 0% 87.5%;  }
+80% { background-position: 25% 87.5%;  }
+82.22222222222221% { background-position: 50% 87.5%;  }
+84.44444444444444% { background-position: 75% 87.5%;  }
+86.66666666666667% { background-position: 100% 87.5%;  }
+88.88888888888889% { background-position: 0% 100%;  }
+91.11111111111111% { background-position: 25% 100%;  }
+93.33333333333333% { background-position: 50% 100%;  }
+95.55555555555556% { background-position: 75% 100%;  }
+97.77777777777777% { background-position: 100% 100%;  }
+100% { background-position: 100% 100%;  }
+`;
+
+const GameStyleWrapper = styled.div`
+
+background-image: url(${bg1});
+
+margin: 0;
+padding: 10px;
+font-family: "Patrick Hand";
+
+height: 100%;
+width: 100%;
+z-index: 0;
+
+position: relative; /* Add this line */
+
+.title {
+  text-transform: uppercase;
+  font-size: 150px;
+  position: absolute;
+  top: 25px; 
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center; 
+  white-space: nowrap;
+  text-shadow: 3px 3px 3px #eb452b, 
+              5px 5px 5px #efa032, 
+              7px 7px 7px #46b59b, 
+              9px 9px 9px #017e7f, 
+              11px 11px 12px #052939,
+              13px 13px 15px #eb452b;
+}
+
+  .track-container {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 0;
+
+    .input-container::before {
+      content: '';
+      position: absolute;
+      top: 0px; /* Adjust to fit within the border */
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      background-color: #FFF4F4; /* Adjust to your desired interior color */
+      z-index: -1; /* Behind the content but above the background */
+    }
+
+    .input-container {
+      position: relative;
+
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      z-index: 0;
+
+      border: 8px solid #000; 
+      border-image: url(${outer}) 8 8 8 8 repeat;
+      position: relative;
+      
+      .recent-race-id {
+        border: 6px solid #000; 
+        border-image: url(${outer}) 8 8 8 8 repeat;
+        position: relative;
+        font-size: 20px;
+        font-weight: 600;
+        
+
+        .race-id-title {
+          border: 4px solid #000; 
+          border-image: url(${outer}) 8 8 8 8 repeat;
+          position: relative;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+
+      .race-number-input {
+        border: 8px solid #000; 
+        border-image: url(${outer}) 8 8 8 8 repeat;
+        position: relative;
+        font-size: 20px;
+        
+        
+        .input {
+          background-color: #FFF4F4;
+          width: 80px;
+          text-align: center;
+        }
+      }
+      .race-number-input::before {
+        content: '';
+        position: absolute;
+        top: 0px; /* Adjust to fit within the border */
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #FFF4F4; /* Adjust to your desired interior color */
+        z-index: -1; /* Behind the content but above the background */
+      }
+    }
+
+
+
+  }
+
+
+
+  .track {
+    border: 8px solid #000;
+    height: 32vh;
+    width: 80%;
+    margin-top: 25vh;
+
+    border-image: url(${outer}) 16 16 16 16 repeat;
+    transform: perspective(70vw) rotateX(45deg);
+    transform-origin: 50% 0;
+    display: inline-block;
+    z-index: 1;
+  }
+
+  .lane {
+    width: 100%;
+    height: 25%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 1;
+
+    &:not(:last-child) {
+      border: 2px solid #fff;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 200%;
+      height: 100%;
+      background-size: 200% 100%;
+      animation: ${moveGradient} 2s linear infinite alternate;
+    }
+  }
+
+  #lane1::before {
+    background: linear-gradient(to right, #bb3737, #02807a);
+    opacity: 0.8;
+  }
+
+  #lane2::before {
+    background: linear-gradient(to right, #6767e7, #5e0008);
+    opacity: 0.8;
+  }
+
+  #lane3::before {
+    background: linear-gradient(to right, #888a23, #02ac95);
+    opacity: 0.8;
+  }
+
+  #lane4::before {
+    background: linear-gradient(to right, #c2c238, #9f00a5);
+    opacity: 0.8;
+  }
+
+  .track .inner {
+    background-image: url(images/mud.png);
+    margin-top: 0;
+    margin-left: 5vw;
+    width: 70vw;
+    height: 16vh;
+  }
+
+  .horse {
+    background-image: url(${wassieEnd1});
+    position: absolute;
+    top: 20vw;
+    left: 20vw;
+    pointer-events: none;
+    transform: scaleX(-1);  
+    
+    .horse.standRight {
+      background-position: 0px -60px; 
+      width: 40px; 
+      height: 60px;
+    }
+
+    &.idle {
+      animation: ${idle} steps(1) 1.5s infinite;
+    }
+    &.idlealt {
+      animation: ${idlealt} steps(1) 3s infinite;
+    }
+    &.ball {
+      animation: ${ball} steps(1) 1.5s infinite;
+    }
+    &.lightning {
+      animation: ${lightning} steps(1) 1.5s infinite;
+    }
+    &.rugpull {
+      animation: ${rugpull} steps(1) 1.5s;
+      animation-fill-mode: forwards;
+    }
+    &.run {
+      animation: ${run} steps(1) 1s infinite;
+    }
+    &.speedup {
+      animation: ${speedup} steps(1) 0.5s infinite;
+    }
+    &.triprock {
+      animation: ${triprock} steps(1) 3.5s;
+      animation-fill-mode: forwards;      
+    }
+    &.end {
+      animation: ${end} steps(1) 2.5s;
+      animation-fill-mode: forwards;
+    }
+  }
+
+  #startline, #finishline {
+    width: 0.25vw;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    opacity: 1;
+    border: 0px solid rgb(32, 32, 32);
+  }
+
+  #startline {
+    left: 5%;
+  }
+
+  #finishline {
+    left: 95%;
+  }
+
+  .horse1, .horse2, .horse3, .horse4 {
+    background-image: url(${wassieIdle1});
+    position: absolute;
+    top: 0vh;
+    z-index: 999;
+    height: 60px;
+    width: 40px;
+  }
+
+  #start {
+    float: right;
+    border-radius: 28px;
+    font-family: Arial;
+    font-size: 20px;
+
+    text-decoration: none;
+    cursor: pointer;
+    text-shadow: 1px 1px 3px #D66DE9, 
+    2px 2px 3px #efa032, 
+    3px 3px 3px #46b59b, 
+    4px 4px 3px #017e7f; 
+    z-index: 9999;
+
+    border: 8px solid #000; 
+    border-image: url(${outer}) 8 8 8 8 repeat;
+    position: relative;
+
+    .start-button {
+      border-radius: 5px;
+      font-weight: 600;
+      text-shadow: 0px 0px 0px #D66DE9;
+      background-color: #DDFFEE;
+
+      &:hover{
+        filter: hue-rotate(180deg);
+      }
+    }
+
+    &:disabled {
+      background: grey;
+    }
+  }
+
+  #start::before {
+    content: '';
+    position: absolute;
+    top: 0px; /* Adjust to fit within the border */
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    background-color: #FFF4F4; /* Adjust to your desired interior color */
+    z-index: -1; /* Behind the content but above the background */
+  }
+  
+`;
+
+export default GameStyleWrapper;

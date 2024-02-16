@@ -1,0 +1,1051 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+.ball001 {max-width:188px; max-height:188px; }
+.ball001::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball001::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball002 {max-width:188px; max-height:188px; }
+.ball002::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball002::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball003 {max-width:188px; max-height:188px; }
+.ball003::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball003::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball004 {max-width:188px; max-height:188px; }
+.ball004::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball004::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball005 {max-width:188px; max-height:188px; }
+.ball005::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball005::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball006 {max-width:188px; max-height:188px; }
+.ball006::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball006::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball007 {max-width:188px; max-height:188px; }
+.ball007::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball007::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball008 {max-width:188px; max-height:188px; }
+.ball008::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball008::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball009 {max-width:188px; max-height:188px; }
+.ball009::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball009::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball010 {max-width:188px; max-height:188px; }
+.ball010::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball010::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball011 {max-width:188px; max-height:188px; }
+.ball011::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball011::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball012 {max-width:188px; max-height:188px; }
+.ball012::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball012::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball013 {max-width:188px; max-height:188px; }
+.ball013::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball013::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball014 {max-width:188px; max-height:188px; }
+.ball014::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball014::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball015 {max-width:188px; max-height:188px; }
+.ball015::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball015::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball016 {max-width:188px; max-height:188px; }
+.ball016::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball016::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball017 {max-width:188px; max-height:188px; }
+.ball017::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball017::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball018 {max-width:188px; max-height:188px; }
+.ball018::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball018::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball019 {max-width:188px; max-height:188px; }
+.ball019::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball019::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball020 {max-width:188px; max-height:188px; }
+.ball020::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 0%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball020::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball021 {max-width:188px; max-height:188px; }
+.ball021::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball021::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball022 {max-width:188px; max-height:188px; }
+.ball022::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball022::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball023 {max-width:188px; max-height:188px; }
+.ball023::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball023::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball024 {max-width:188px; max-height:188px; }
+.ball024::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball024::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball025 {max-width:188px; max-height:188px; }
+.ball025::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball025::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball026 {max-width:188px; max-height:188px; }
+.ball026::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball026::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball027 {max-width:188px; max-height:188px; }
+.ball027::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball027::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball028 {max-width:188px; max-height:188px; }
+.ball028::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball028::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball029 {max-width:188px; max-height:188px; }
+.ball029::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball029::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball030 {max-width:188px; max-height:188px; }
+.ball030::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball030::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball031 {max-width:188px; max-height:188px; }
+.ball031::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball031::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball032 {max-width:188px; max-height:188px; }
+.ball032::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball032::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball033 {max-width:188px; max-height:188px; }
+.ball033::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball033::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball034 {max-width:188px; max-height:188px; }
+.ball034::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball034::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball035 {max-width:188px; max-height:188px; }
+.ball035::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball035::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball036 {max-width:188px; max-height:188px; }
+.ball036::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball036::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball037 {max-width:188px; max-height:188px; }
+.ball037::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball037::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball038 {max-width:188px; max-height:188px; }
+.ball038::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball038::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball039 {max-width:188px; max-height:188px; }
+.ball039::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball039::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball040 {max-width:188px; max-height:188px; }
+.ball040::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 9.090909090909092%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball040::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball041 {max-width:188px; max-height:188px; }
+.ball041::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball041::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball042 {max-width:188px; max-height:188px; }
+.ball042::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball042::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball043 {max-width:188px; max-height:188px; }
+.ball043::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball043::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball044 {max-width:188px; max-height:188px; }
+.ball044::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball044::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball045 {max-width:188px; max-height:188px; }
+.ball045::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball045::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball046 {max-width:188px; max-height:188px; }
+.ball046::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball046::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball047 {max-width:188px; max-height:188px; }
+.ball047::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball047::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball048 {max-width:188px; max-height:188px; }
+.ball048::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball048::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball049 {max-width:188px; max-height:188px; }
+.ball049::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball049::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball050 {max-width:188px; max-height:188px; }
+.ball050::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball050::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball051 {max-width:188px; max-height:188px; }
+.ball051::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball051::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball052 {max-width:188px; max-height:188px; }
+.ball052::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball052::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball053 {max-width:188px; max-height:188px; }
+.ball053::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball053::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball054 {max-width:188px; max-height:188px; }
+.ball054::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball054::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball055 {max-width:188px; max-height:188px; }
+.ball055::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball055::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball056 {max-width:188px; max-height:188px; }
+.ball056::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball056::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball057 {max-width:188px; max-height:188px; }
+.ball057::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball057::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball058 {max-width:188px; max-height:188px; }
+.ball058::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball058::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball059 {max-width:188px; max-height:188px; }
+.ball059::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball059::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball060 {max-width:188px; max-height:188px; }
+.ball060::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 18.181818181818183%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.ball060::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle001 {max-width:188px; max-height:188px; }
+.idle001::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle001::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle002 {max-width:188px; max-height:188px; }
+.idle002::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle002::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle003 {max-width:188px; max-height:188px; }
+.idle003::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle003::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle004 {max-width:188px; max-height:188px; }
+.idle004::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle004::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle005 {max-width:188px; max-height:188px; }
+.idle005::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle005::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle006 {max-width:188px; max-height:188px; }
+.idle006::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle006::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle007 {max-width:188px; max-height:188px; }
+.idle007::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle007::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle008 {max-width:188px; max-height:188px; }
+.idle008::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle008::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle009 {max-width:188px; max-height:188px; }
+.idle009::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle009::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle010 {max-width:188px; max-height:188px; }
+.idle010::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle010::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle011 {max-width:188px; max-height:188px; }
+.idle011::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle011::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle012 {max-width:188px; max-height:188px; }
+.idle012::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle012::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle013 {max-width:188px; max-height:188px; }
+.idle013::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle013::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle014 {max-width:188px; max-height:188px; }
+.idle014::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle014::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle015 {max-width:188px; max-height:188px; }
+.idle015::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle015::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle016 {max-width:188px; max-height:188px; }
+.idle016::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle016::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle017 {max-width:188px; max-height:188px; }
+.idle017::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle017::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle018 {max-width:188px; max-height:188px; }
+.idle018::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle018::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle019 {max-width:188px; max-height:188px; }
+.idle019::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle019::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle020 {max-width:188px; max-height:188px; }
+.idle020::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 27.272727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle020::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle021 {max-width:188px; max-height:188px; }
+.idle021::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle021::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle022 {max-width:188px; max-height:188px; }
+.idle022::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle022::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle023 {max-width:188px; max-height:188px; }
+.idle023::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle023::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle024 {max-width:188px; max-height:188px; }
+.idle024::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle024::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle025 {max-width:188px; max-height:188px; }
+.idle025::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle025::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle026 {max-width:188px; max-height:188px; }
+.idle026::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle026::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle027 {max-width:188px; max-height:188px; }
+.idle027::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle027::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle028 {max-width:188px; max-height:188px; }
+.idle028::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle028::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle029 {max-width:188px; max-height:188px; }
+.idle029::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle029::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle030 {max-width:188px; max-height:188px; }
+.idle030::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle030::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle031 {max-width:188px; max-height:188px; }
+.idle031::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle031::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle032 {max-width:188px; max-height:188px; }
+.idle032::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle032::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle033 {max-width:188px; max-height:188px; }
+.idle033::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle033::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle034 {max-width:188px; max-height:188px; }
+.idle034::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle034::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle035 {max-width:188px; max-height:188px; }
+.idle035::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle035::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle036 {max-width:188px; max-height:188px; }
+.idle036::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle036::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle037 {max-width:188px; max-height:188px; }
+.idle037::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle037::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle038 {max-width:188px; max-height:188px; }
+.idle038::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle038::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle039 {max-width:188px; max-height:188px; }
+.idle039::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle039::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle040 {max-width:188px; max-height:188px; }
+.idle040::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 36.36363636363637%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle040::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle041 {max-width:188px; max-height:188px; }
+.idle041::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle041::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle042 {max-width:188px; max-height:188px; }
+.idle042::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle042::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle043 {max-width:188px; max-height:188px; }
+.idle043::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle043::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle044 {max-width:188px; max-height:188px; }
+.idle044::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle044::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle045 {max-width:188px; max-height:188px; }
+.idle045::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idle045::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt001 {max-width:188px; max-height:188px; }
+.idlealt001::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt001::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt002 {max-width:188px; max-height:188px; }
+.idlealt002::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt002::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt003 {max-width:188px; max-height:188px; }
+.idlealt003::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt003::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt004 {max-width:188px; max-height:188px; }
+.idlealt004::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt004::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt005 {max-width:188px; max-height:188px; }
+.idlealt005::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt005::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt006 {max-width:188px; max-height:188px; }
+.idlealt006::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt006::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt007 {max-width:188px; max-height:188px; }
+.idlealt007::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt007::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt008 {max-width:188px; max-height:188px; }
+.idlealt008::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt008::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt009 {max-width:188px; max-height:188px; }
+.idlealt009::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt009::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt010 {max-width:188px; max-height:188px; }
+.idlealt010::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt010::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt011 {max-width:188px; max-height:188px; }
+.idlealt011::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt011::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt012 {max-width:188px; max-height:188px; }
+.idlealt012::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt012::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt013 {max-width:188px; max-height:188px; }
+.idlealt013::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt013::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt014 {max-width:188px; max-height:188px; }
+.idlealt014::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt014::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt015 {max-width:188px; max-height:188px; }
+.idlealt015::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 45.45454545454545%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt015::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt016 {max-width:188px; max-height:188px; }
+.idlealt016::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt016::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt017 {max-width:188px; max-height:188px; }
+.idlealt017::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt017::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt018 {max-width:188px; max-height:188px; }
+.idlealt018::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt018::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt019 {max-width:188px; max-height:188px; }
+.idlealt019::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt019::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt020 {max-width:188px; max-height:188px; }
+.idlealt020::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt020::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt021 {max-width:188px; max-height:188px; }
+.idlealt021::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt021::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt022 {max-width:188px; max-height:188px; }
+.idlealt022::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt022::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt023 {max-width:188px; max-height:188px; }
+.idlealt023::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt023::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt024 {max-width:188px; max-height:188px; }
+.idlealt024::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt024::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt025 {max-width:188px; max-height:188px; }
+.idlealt025::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt025::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt026 {max-width:188px; max-height:188px; }
+.idlealt026::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt026::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt027 {max-width:188px; max-height:188px; }
+.idlealt027::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt027::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt028 {max-width:188px; max-height:188px; }
+.idlealt028::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt028::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt029 {max-width:188px; max-height:188px; }
+.idlealt029::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt029::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt030 {max-width:188px; max-height:188px; }
+.idlealt030::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt030::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt031 {max-width:188px; max-height:188px; }
+.idlealt031::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt031::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt032 {max-width:188px; max-height:188px; }
+.idlealt032::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt032::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt033 {max-width:188px; max-height:188px; }
+.idlealt033::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt033::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt034 {max-width:188px; max-height:188px; }
+.idlealt034::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt034::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt035 {max-width:188px; max-height:188px; }
+.idlealt035::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 54.54545454545455%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt035::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt036 {max-width:188px; max-height:188px; }
+.idlealt036::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt036::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt037 {max-width:188px; max-height:188px; }
+.idlealt037::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt037::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt038 {max-width:188px; max-height:188px; }
+.idlealt038::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt038::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt039 {max-width:188px; max-height:188px; }
+.idlealt039::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt039::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt040 {max-width:188px; max-height:188px; }
+.idlealt040::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt040::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt041 {max-width:188px; max-height:188px; }
+.idlealt041::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt041::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt042 {max-width:188px; max-height:188px; }
+.idlealt042::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt042::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt043 {max-width:188px; max-height:188px; }
+.idlealt043::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt043::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt044 {max-width:188px; max-height:188px; }
+.idlealt044::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt044::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt045 {max-width:188px; max-height:188px; }
+.idlealt045::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt045::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt046 {max-width:188px; max-height:188px; }
+.idlealt046::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt046::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt047 {max-width:188px; max-height:188px; }
+.idlealt047::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt047::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt048 {max-width:188px; max-height:188px; }
+.idlealt048::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt048::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt049 {max-width:188px; max-height:188px; }
+.idlealt049::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt049::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt050 {max-width:188px; max-height:188px; }
+.idlealt050::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt050::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt051 {max-width:188px; max-height:188px; }
+.idlealt051::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt051::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt052 {max-width:188px; max-height:188px; }
+.idlealt052::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt052::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt053 {max-width:188px; max-height:188px; }
+.idlealt053::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt053::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt054 {max-width:188px; max-height:188px; }
+.idlealt054::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt054::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt055 {max-width:188px; max-height:188px; }
+.idlealt055::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 63.63636363636363%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt055::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt056 {max-width:188px; max-height:188px; }
+.idlealt056::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt056::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt057 {max-width:188px; max-height:188px; }
+.idlealt057::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt057::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt058 {max-width:188px; max-height:188px; }
+.idlealt058::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt058::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt059 {max-width:188px; max-height:188px; }
+.idlealt059::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt059::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt060 {max-width:188px; max-height:188px; }
+.idlealt060::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt060::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt061 {max-width:188px; max-height:188px; }
+.idlealt061::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt061::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt062 {max-width:188px; max-height:188px; }
+.idlealt062::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt062::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt063 {max-width:188px; max-height:188px; }
+.idlealt063::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt063::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt064 {max-width:188px; max-height:188px; }
+.idlealt064::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt064::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt065 {max-width:188px; max-height:188px; }
+.idlealt065::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt065::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt066 {max-width:188px; max-height:188px; }
+.idlealt066::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt066::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt067 {max-width:188px; max-height:188px; }
+.idlealt067::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt067::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt068 {max-width:188px; max-height:188px; }
+.idlealt068::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt068::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt069 {max-width:188px; max-height:188px; }
+.idlealt069::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt069::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt070 {max-width:188px; max-height:188px; }
+.idlealt070::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt070::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt071 {max-width:188px; max-height:188px; }
+.idlealt071::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt071::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt072 {max-width:188px; max-height:188px; }
+.idlealt072::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt072::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt073 {max-width:188px; max-height:188px; }
+.idlealt073::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt073::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt074 {max-width:188px; max-height:188px; }
+.idlealt074::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt074::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt075 {max-width:188px; max-height:188px; }
+.idlealt075::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 72.72727272727273%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt075::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt076 {max-width:188px; max-height:188px; }
+.idlealt076::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt076::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt077 {max-width:188px; max-height:188px; }
+.idlealt077::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt077::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt078 {max-width:188px; max-height:188px; }
+.idlealt078::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt078::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt079 {max-width:188px; max-height:188px; }
+.idlealt079::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt079::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt080 {max-width:188px; max-height:188px; }
+.idlealt080::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt080::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt081 {max-width:188px; max-height:188px; }
+.idlealt081::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt081::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt082 {max-width:188px; max-height:188px; }
+.idlealt082::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt082::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt083 {max-width:188px; max-height:188px; }
+.idlealt083::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt083::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt084 {max-width:188px; max-height:188px; }
+.idlealt084::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt084::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt085 {max-width:188px; max-height:188px; }
+.idlealt085::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt085::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt086 {max-width:188px; max-height:188px; }
+.idlealt086::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt086::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt087 {max-width:188px; max-height:188px; }
+.idlealt087::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt087::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt088 {max-width:188px; max-height:188px; }
+.idlealt088::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt088::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt089 {max-width:188px; max-height:188px; }
+.idlealt089::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt089::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt090 {max-width:188px; max-height:188px; }
+.idlealt090::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt090::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt091 {max-width:188px; max-height:188px; }
+.idlealt091::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt091::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt092 {max-width:188px; max-height:188px; }
+.idlealt092::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt092::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt093 {max-width:188px; max-height:188px; }
+.idlealt093::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt093::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt094 {max-width:188px; max-height:188px; }
+.idlealt094::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt094::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt095 {max-width:188px; max-height:188px; }
+.idlealt095::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 81.81818181818181%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt095::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt096 {max-width:188px; max-height:188px; }
+.idlealt096::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt096::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt097 {max-width:188px; max-height:188px; }
+.idlealt097::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt097::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt098 {max-width:188px; max-height:188px; }
+.idlealt098::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt098::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt099 {max-width:188px; max-height:188px; }
+.idlealt099::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt099::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt100 {max-width:188px; max-height:188px; }
+.idlealt100::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt100::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt101 {max-width:188px; max-height:188px; }
+.idlealt101::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt101::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt102 {max-width:188px; max-height:188px; }
+.idlealt102::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt102::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt103 {max-width:188px; max-height:188px; }
+.idlealt103::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt103::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt104 {max-width:188px; max-height:188px; }
+.idlealt104::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt104::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt105 {max-width:188px; max-height:188px; }
+.idlealt105::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt105::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt106 {max-width:188px; max-height:188px; }
+.idlealt106::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt106::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt107 {max-width:188px; max-height:188px; }
+.idlealt107::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt107::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt108 {max-width:188px; max-height:188px; }
+.idlealt108::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt108::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt109 {max-width:188px; max-height:188px; }
+.idlealt109::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt109::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt110 {max-width:188px; max-height:188px; }
+.idlealt110::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt110::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt111 {max-width:188px; max-height:188px; }
+.idlealt111::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt111::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt112 {max-width:188px; max-height:188px; }
+.idlealt112::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt112::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt113 {max-width:188px; max-height:188px; }
+.idlealt113::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt113::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt114 {max-width:188px; max-height:188px; }
+.idlealt114::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt114::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt115 {max-width:188px; max-height:188px; }
+.idlealt115::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 90.9090909090909%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt115::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt116 {max-width:188px; max-height:188px; }
+.idlealt116::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 0% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt116::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt117 {max-width:188px; max-height:188px; }
+.idlealt117::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 5.2631578947368425% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt117::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt118 {max-width:188px; max-height:188px; }
+.idlealt118::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 10.526315789473685% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt118::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt119 {max-width:188px; max-height:188px; }
+.idlealt119::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 15.789473684210526% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt119::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt120 {max-width:188px; max-height:188px; }
+.idlealt120::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 21.05263157894737% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt120::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt121 {max-width:188px; max-height:188px; }
+.idlealt121::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 26.31578947368421% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt121::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt122 {max-width:188px; max-height:188px; }
+.idlealt122::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 31.57894736842105% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt122::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt123 {max-width:188px; max-height:188px; }
+.idlealt123::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 36.8421052631579% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt123::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt124 {max-width:188px; max-height:188px; }
+.idlealt124::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 42.10526315789474% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt124::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt125 {max-width:188px; max-height:188px; }
+.idlealt125::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 47.36842105263158% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt125::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt126 {max-width:188px; max-height:188px; }
+.idlealt126::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 52.63157894736842% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt126::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt127 {max-width:188px; max-height:188px; }
+.idlealt127::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 57.89473684210526% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt127::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt128 {max-width:188px; max-height:188px; }
+.idlealt128::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 63.1578947368421% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt128::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt129 {max-width:188px; max-height:188px; }
+.idlealt129::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 68.42105263157895% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt129::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt130 {max-width:188px; max-height:188px; }
+.idlealt130::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 73.6842105263158% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt130::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt131 {max-width:188px; max-height:188px; }
+.idlealt131::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 78.94736842105263% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt131::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt132 {max-width:188px; max-height:188px; }
+.idlealt132::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 84.21052631578948% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt132::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt133 {max-width:188px; max-height:188px; }
+.idlealt133::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 89.47368421052632% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt133::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt134 {max-width:188px; max-height:188px; }
+.idlealt134::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 94.73684210526316% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt134::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt135 {max-width:188px; max-height:188px; }
+.idlealt135::after {content: '\00a0';display: inline-block; width:188px; height:188px; background-position: 100% 100%; background-size: 2000% 1200%; background-image: url(idlespritesnopack.png);padding: 0; }
+div.idlealt135::after {max-width:188px; width:100%;height:0;padding: 0 0 100% 0;}
+
+@keyframes ball-frames {
+    0% { background-position: 0% 0%;  }
+    1.6666666666666667% { background-position: 5.2631578947368425% 0%;  }
+    3.3333333333333335% { background-position: 10.526315789473685% 0%;  }
+    5% { background-position: 15.789473684210526% 0%;  }
+    6.666666666666667% { background-position: 21.05263157894737% 0%;  }
+    8.333333333333332% { background-position: 26.31578947368421% 0%;  }
+    10% { background-position: 31.57894736842105% 0%;  }
+    11.666666666666666% { background-position: 36.8421052631579% 0%;  }
+    13.333333333333334% { background-position: 42.10526315789474% 0%;  }
+    15% { background-position: 47.36842105263158% 0%;  }
+    16.666666666666664% { background-position: 52.63157894736842% 0%;  }
+    18.333333333333332% { background-position: 57.89473684210526% 0%;  }
+    20% { background-position: 63.1578947368421% 0%;  }
+    21.666666666666668% { background-position: 68.42105263157895% 0%;  }
+    23.333333333333332% { background-position: 73.6842105263158% 0%;  }
+    25% { background-position: 78.94736842105263% 0%;  }
+    26.666666666666668% { background-position: 84.21052631578948% 0%;  }
+    28.333333333333332% { background-position: 89.47368421052632% 0%;  }
+    30% { background-position: 94.73684210526316% 0%;  }
+    31.666666666666664% { background-position: 100% 0%;  }
+    33.33333333333333% { background-position: 0% 9.090909090909092%;  }
+    35% { background-position: 5.2631578947368425% 9.090909090909092%;  }
+    36.666666666666664% { background-position: 10.526315789473685% 9.090909090909092%;  }
+    38.333333333333336% { background-position: 15.789473684210526% 9.090909090909092%;  }
+    40% { background-position: 21.05263157894737% 9.090909090909092%;  }
+    41.66666666666667% { background-position: 26.31578947368421% 9.090909090909092%;  }
+    43.333333333333336% { background-position: 31.57894736842105% 9.090909090909092%;  }
+    45% { background-position: 36.8421052631579% 9.090909090909092%;  }
+    46.666666666666664% { background-position: 42.10526315789474% 9.090909090909092%;  }
+    48.333333333333336% { background-position: 47.36842105263158% 9.090909090909092%;  }
+    50% { background-position: 52.63157894736842% 9.090909090909092%;  }
+    51.66666666666667% { background-position: 57.89473684210526% 9.090909090909092%;  }
+    53.333333333333336% { background-position: 63.1578947368421% 9.090909090909092%;  }
+    55.00000000000001% { background-position: 68.42105263157895% 9.090909090909092%;  }
+    56.666666666666664% { background-position: 73.6842105263158% 9.090909090909092%;  }
+    58.333333333333336% { background-position: 78.94736842105263% 9.090909090909092%;  }
+    60% { background-position: 84.21052631578948% 9.090909090909092%;  }
+    61.66666666666667% { background-position: 89.47368421052632% 9.090909090909092%;  }
+    63.33333333333333% { background-position: 94.73684210526316% 9.090909090909092%;  }
+    65% { background-position: 100% 9.090909090909092%;  }
+    66.66666666666666% { background-position: 0% 18.181818181818183%;  }
+    68.33333333333333% { background-position: 5.2631578947368425% 18.181818181818183%;  }
+    70% { background-position: 10.526315789473685% 18.181818181818183%;  }
+    71.66666666666667% { background-position: 15.789473684210526% 18.181818181818183%;  }
+    73.33333333333333% { background-position: 21.05263157894737% 18.181818181818183%;  }
+    75% { background-position: 26.31578947368421% 18.181818181818183%;  }
+    76.66666666666667% { background-position: 31.57894736842105% 18.181818181818183%;  }
+    78.33333333333333% { background-position: 36.8421052631579% 18.181818181818183%;  }
+    80% { background-position: 42.10526315789474% 18.181818181818183%;  }
+    81.66666666666667% { background-position: 47.36842105263158% 18.181818181818183%;  }
+    83.33333333333334% { background-position: 52.63157894736842% 18.181818181818183%;  }
+    85% { background-position: 57.89473684210526% 18.181818181818183%;  }
+    86.66666666666667% { background-position: 63.1578947368421% 18.181818181818183%;  }
+    88.33333333333333% { background-position: 68.42105263157895% 18.181818181818183%;  }
+    90% { background-position: 73.6842105263158% 18.181818181818183%;  }
+    91.66666666666666% { background-position: 78.94736842105263% 18.181818181818183%;  }
+    93.33333333333333% { background-position: 84.21052631578948% 18.181818181818183%;  }
+    95% { background-position: 89.47368421052632% 18.181818181818183%;  }
+    96.66666666666667% { background-position: 94.73684210526316% 18.181818181818183%;  }
+    98.33333333333333% { background-position: 100% 18.181818181818183%;  }
+}
+
+.ball-animation {
+    max-width: 188px;
+    max-height: 188px;
+}
+.ball-animation::after {
+    content: '\00a0';
+    display: inline-block;
+    width: 188px;
+    height: 188px;
+    padding: 0;
+    background-image: url(idlespritesnopack.png);
+    background-size: 2000% 1200%; 
+    animation-name: ball-frames;
+    animation-timing-function: steps(1);
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+div.ball-animation::after {
+    max-width: 188px;
+    width: 100%;
+    height: 0;
+    padding: 0 0 100% 0;
+}
+
+@keyframes idle-frames {
+    0% { background-position: 0% 27.272727272727273%;  }
+    2.2222222222222223% { background-position: 5.2631578947368425% 27.272727272727273%;  }
+    4.444444444444445% { background-position: 10.526315789473685% 27.272727272727273%;  }
+    6.666666666666667% { background-position: 15.789473684210526% 27.272727272727273%;  }
+    8.88888888888889% { background-position: 21.05263157894737% 27.272727272727273%;  }
+    11.11111111111111% { background-position: 26.31578947368421% 27.272727272727273%;  }
+    13.333333333333334% { background-position: 31.57894736842105% 27.272727272727273%;  }
+    15.555555555555555% { background-position: 36.8421052631579% 27.272727272727273%;  }
+    17.77777777777778% { background-position: 42.10526315789474% 27.272727272727273%;  }
+    20% { background-position: 47.36842105263158% 27.272727272727273%;  }
+    22.22222222222222% { background-position: 52.63157894736842% 27.272727272727273%;  }
+    24.444444444444443% { background-position: 57.89473684210526% 27.272727272727273%;  }
+    26.666666666666668% { background-position: 63.1578947368421% 27.272727272727273%;  }
+    28.888888888888886% { background-position: 68.42105263157895% 27.272727272727273%;  }
+    31.11111111111111% { background-position: 73.6842105263158% 27.272727272727273%;  }
+    33.33333333333333% { background-position: 78.94736842105263% 27.272727272727273%;  }
+    35.55555555555556% { background-position: 84.21052631578948% 27.272727272727273%;  }
+    37.77777777777778% { background-position: 89.47368421052632% 27.272727272727273%;  }
+    40% { background-position: 94.73684210526316% 27.272727272727273%;  }
+    42.22222222222222% { background-position: 100% 27.272727272727273%;  }
+    44.44444444444444% { background-position: 0% 36.36363636363637%;  }
+    46.666666666666664% { background-position: 5.2631578947368425% 36.36363636363637%;  }
+    48.888888888888886% { background-position: 10.526315789473685% 36.36363636363637%;  }
+    51.11111111111111% { background-position: 15.789473684210526% 36.36363636363637%;  }
+    53.333333333333336% { background-position: 21.05263157894737% 36.36363636363637%;  }
+    55.55555555555556% { background-position: 26.31578947368421% 36.36363636363637%;  }
+    57.77777777777777% { background-position: 31.57894736842105% 36.36363636363637%;  }
+    60% { background-position: 36.8421052631579% 36.36363636363637%;  }
+    62.22222222222222% { background-position: 42.10526315789474% 36.36363636363637%;  }
+    64.44444444444444% { background-position: 47.36842105263158% 36.36363636363637%;  }
+    66.66666666666666% { background-position: 52.63157894736842% 36.36363636363637%;  }
+    68.88888888888889% { background-position: 57.89473684210526% 36.36363636363637%;  }
+    71.11111111111111% { background-position: 63.1578947368421% 36.36363636363637%;  }
+    73.33333333333333% { background-position: 68.42105263157895% 36.36363636363637%;  }
+    75.55555555555556% { background-position: 73.6842105263158% 36.36363636363637%;  }
+    77.77777777777779% { background-position: 78.94736842105263% 36.36363636363637%;  }
+    80% { background-position: 84.21052631578948% 36.36363636363637%;  }
+    82.22222222222221% { background-position: 89.47368421052632% 36.36363636363637%;  }
+    84.44444444444444% { background-position: 94.73684210526316% 36.36363636363637%;  }
+    86.66666666666667% { background-position: 100% 36.36363636363637%;  }
+    88.88888888888889% { background-position: 0% 45.45454545454545%;  }
+    91.11111111111111% { background-position: 5.2631578947368425% 45.45454545454545%;  }
+    93.33333333333333% { background-position: 10.526315789473685% 45.45454545454545%;  }
+    95.55555555555556% { background-position: 15.789473684210526% 45.45454545454545%;  }
+    97.77777777777777% { background-position: 21.05263157894737% 45.45454545454545%;  }
+}
+
+.idle-animation {
+    max-width: 188px;
+    max-height: 188px;
+}
+.idle-animation::after {
+    content: '\00a0';
+    display: inline-block;
+    width: 188px;
+    height: 188px;
+    padding: 0;
+    background-image: url(idlespritesnopack.png);
+    background-size: 2000% 1200%; 
+    animation-name: idle-frames;
+    animation-timing-function: steps(1);
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+div.idle-animation::after {
+    max-width: 188px;
+    width: 100%;
+    height: 0;
+    padding: 0 0 100% 0;
+}
+
+@keyframes idlealt-frames {
+    0% { background-position: 26.31578947368421% 45.45454545454545%;  }
+    0.7407407407407408% { background-position: 31.57894736842105% 45.45454545454545%;  }
+    1.4814814814814816% { background-position: 36.8421052631579% 45.45454545454545%;  }
+    2.2222222222222223% { background-position: 42.10526315789474% 45.45454545454545%;  }
+    2.9629629629629632% { background-position: 47.36842105263158% 45.45454545454545%;  }
+    3.7037037037037033% { background-position: 52.63157894736842% 45.45454545454545%;  }
+    4.444444444444445% { background-position: 57.89473684210526% 45.45454545454545%;  }
+    5.185185185185185% { background-position: 63.1578947368421% 45.45454545454545%;  }
+    5.9259259259259265% { background-position: 68.42105263157895% 45.45454545454545%;  }
+    6.666666666666667% { background-position: 73.6842105263158% 45.45454545454545%;  }
+    7.4074074074074066% { background-position: 78.94736842105263% 45.45454545454545%;  }
+    8.148148148148149% { background-position: 84.21052631578948% 45.45454545454545%;  }
+    8.88888888888889% { background-position: 89.47368421052632% 45.45454545454545%;  }
+    9.62962962962963% { background-position: 94.73684210526316% 45.45454545454545%;  }
+    10.37037037037037% { background-position: 100% 45.45454545454545%;  }
+    11.11111111111111% { background-position: 0% 54.54545454545455%;  }
+    11.851851851851853% { background-position: 5.2631578947368425% 54.54545454545455%;  }
+    12.592592592592592% { background-position: 10.526315789473685% 54.54545454545455%;  }
+    13.333333333333334% { background-position: 15.789473684210526% 54.54545454545455%;  }
+    14.074074074074074% { background-position: 21.05263157894737% 54.54545454545455%;  }
+    14.814814814814813% { background-position: 26.31578947368421% 54.54545454545455%;  }
+    15.555555555555555% { background-position: 31.57894736842105% 54.54545454545455%;  }
+    16.296296296296298% { background-position: 36.8421052631579% 54.54545454545455%;  }
+    17.037037037037038% { background-position: 42.10526315789474% 54.54545454545455%;  }
+    17.77777777777778% { background-position: 47.36842105263158% 54.54545454545455%;  }
+    18.51851851851852% { background-position: 52.63157894736842% 54.54545454545455%;  }
+    19.25925925925926% { background-position: 57.89473684210526% 54.54545454545455%;  }
+    20% { background-position: 63.1578947368421% 54.54545454545455%;  }
+    20.74074074074074% { background-position: 68.42105263157895% 54.54545454545455%;  }
+    21.48148148148148% { background-position: 73.6842105263158% 54.54545454545455%;  }
+    22.22222222222222% { background-position: 78.94736842105263% 54.54545454545455%;  }
+    22.962962962962962% { background-position: 84.21052631578948% 54.54545454545455%;  }
+    23.703703703703706% { background-position: 89.47368421052632% 54.54545454545455%;  }
+    24.444444444444443% { background-position: 94.73684210526316% 54.54545454545455%;  }
+    25.185185185185183% { background-position: 100% 54.54545454545455%;  }
+    25.925925925925924% { background-position: 0% 63.63636363636363%;  }
+    26.666666666666668% { background-position: 5.2631578947368425% 63.63636363636363%;  }
+    27.40740740740741% { background-position: 10.526315789473685% 63.63636363636363%;  }
+    28.14814814814815% { background-position: 15.789473684210526% 63.63636363636363%;  }
+    28.888888888888886% { background-position: 21.05263157894737% 63.63636363636363%;  }
+    29.629629629629626% { background-position: 26.31578947368421% 63.63636363636363%;  }
+    30.37037037037037% { background-position: 31.57894736842105% 63.63636363636363%;  }
+    31.11111111111111% { background-position: 36.8421052631579% 63.63636363636363%;  }
+    31.851851851851855% { background-position: 42.10526315789474% 63.63636363636363%;  }
+    32.592592592592595% { background-position: 47.36842105263158% 63.63636363636363%;  }
+    33.33333333333333% { background-position: 52.63157894736842% 63.63636363636363%;  }
+    34.074074074074076% { background-position: 57.89473684210526% 63.63636363636363%;  }
+    34.81481481481482% { background-position: 63.1578947368421% 63.63636363636363%;  }
+    35.55555555555556% { background-position: 68.42105263157895% 63.63636363636363%;  }
+    36.2962962962963% { background-position: 73.6842105263158% 63.63636363636363%;  }
+    37.03703703703704% { background-position: 78.94736842105263% 63.63636363636363%;  }
+    37.77777777777778% { background-position: 84.21052631578948% 63.63636363636363%;  }
+    38.51851851851852% { background-position: 89.47368421052632% 63.63636363636363%;  }
+    39.25925925925926% { background-position: 94.73684210526316% 63.63636363636363%;  }
+    40% { background-position: 100% 63.63636363636363%;  }
+    40.74074074074074% { background-position: 0% 72.72727272727273%;  }
+    41.48148148148148% { background-position: 5.2631578947368425% 72.72727272727273%;  }
+    42.22222222222222% { background-position: 10.526315789473685% 72.72727272727273%;  }
+    42.96296296296296% { background-position: 15.789473684210526% 72.72727272727273%;  }
+    43.7037037037037% { background-position: 21.05263157894737% 72.72727272727273%;  }
+    44.44444444444444% { background-position: 26.31578947368421% 72.72727272727273%;  }
+    45.18518518518518% { background-position: 31.57894736842105% 72.72727272727273%;  }
+    45.925925925925924% { background-position: 36.8421052631579% 72.72727272727273%;  }
+    46.666666666666664% { background-position: 42.10526315789474% 72.72727272727273%;  }
+    47.40740740740741% { background-position: 47.36842105263158% 72.72727272727273%;  }
+    48.148148148148145% { background-position: 52.63157894736842% 72.72727272727273%;  }
+    48.888888888888886% { background-position: 57.89473684210526% 72.72727272727273%;  }
+    49.629629629629626% { background-position: 63.1578947368421% 72.72727272727273%;  }
+    50.37037037037037% { background-position: 68.42105263157895% 72.72727272727273%;  }
+    51.11111111111111% { background-position: 73.6842105263158% 72.72727272727273%;  }
+    51.85185185185185% { background-position: 78.94736842105263% 72.72727272727273%;  }
+    52.59259259259259% { background-position: 84.21052631578948% 72.72727272727273%;  }
+    53.333333333333336% { background-position: 89.47368421052632% 72.72727272727273%;  }
+    54.074074074074076% { background-position: 94.73684210526316% 72.72727272727273%;  }
+    54.81481481481482% { background-position: 100% 72.72727272727273%;  }
+    55.55555555555556% { background-position: 0% 81.81818181818181%;  }
+    56.2962962962963% { background-position: 5.2631578947368425% 81.81818181818181%;  }
+    57.03703703703704% { background-position: 10.526315789473685% 81.81818181818181%;  }
+    57.77777777777777% { background-position: 15.789473684210526% 81.81818181818181%;  }
+    58.51851851851851% { background-position: 21.05263157894737% 81.81818181818181%;  }
+    59.25925925925925% { background-position: 26.31578947368421% 81.81818181818181%;  }
+    60% { background-position: 31.57894736842105% 81.81818181818181%;  }
+    60.74074074074074% { background-position: 36.8421052631579% 81.81818181818181%;  }
+    61.48148148148148% { background-position: 42.10526315789474% 81.81818181818181%;  }
+    62.22222222222222% { background-position: 47.36842105263158% 81.81818181818181%;  }
+    62.96296296296296% { background-position: 52.63157894736842% 81.81818181818181%;  }
+    63.70370370370371% { background-position: 57.89473684210526% 81.81818181818181%;  }
+    64.44444444444444% { background-position: 63.1578947368421% 81.81818181818181%;  }
+    65.18518518518519% { background-position: 68.42105263157895% 81.81818181818181%;  }
+    65.92592592592592% { background-position: 73.6842105263158% 81.81818181818181%;  }
+    66.66666666666666% { background-position: 78.94736842105263% 81.81818181818181%;  }
+    67.4074074074074% { background-position: 84.21052631578948% 81.81818181818181%;  }
+    68.14814814814815% { background-position: 89.47368421052632% 81.81818181818181%;  }
+    68.88888888888889% { background-position: 94.73684210526316% 81.81818181818181%;  }
+    69.62962962962963% { background-position: 100% 81.81818181818181%;  }
+    70.37037037037037% { background-position: 0% 90.9090909090909%;  }
+    71.11111111111111% { background-position: 5.2631578947368425% 90.9090909090909%;  }
+    71.85185185185186% { background-position: 10.526315789473685% 90.9090909090909%;  }
+    72.5925925925926% { background-position: 15.789473684210526% 90.9090909090909%;  }
+    73.33333333333333% { background-position: 21.05263157894737% 90.9090909090909%;  }
+    74.07407407407408% { background-position: 26.31578947368421% 90.9090909090909%;  }
+    74.81481481481481% { background-position: 31.57894736842105% 90.9090909090909%;  }
+    75.55555555555556% { background-position: 36.8421052631579% 90.9090909090909%;  }
+    76.29629629629629% { background-position: 42.10526315789474% 90.9090909090909%;  }
+    77.03703703703704% { background-position: 47.36842105263158% 90.9090909090909%;  }
+    77.77777777777779% { background-position: 52.63157894736842% 90.9090909090909%;  }
+    78.51851851851852% { background-position: 57.89473684210526% 90.9090909090909%;  }
+    79.25925925925927% { background-position: 63.1578947368421% 90.9090909090909%;  }
+    80% { background-position: 68.42105263157895% 90.9090909090909%;  }
+    80.74074074074075% { background-position: 73.6842105263158% 90.9090909090909%;  }
+    81.48148148148148% { background-position: 78.94736842105263% 90.9090909090909%;  }
+    82.22222222222221% { background-position: 84.21052631578948% 90.9090909090909%;  }
+    82.96296296296296% { background-position: 89.47368421052632% 90.9090909090909%;  }
+    83.7037037037037% { background-position: 94.73684210526316% 90.9090909090909%;  }
+    84.44444444444444% { background-position: 100% 90.9090909090909%;  }
+    85.18518518518519% { background-position: 0% 100%;  }
+    85.92592592592592% { background-position: 5.2631578947368425% 100%;  }
+    86.66666666666667% { background-position: 10.526315789473685% 100%;  }
+    87.4074074074074% { background-position: 15.789473684210526% 100%;  }
+    88.14814814814815% { background-position: 21.05263157894737% 100%;  }
+    88.88888888888889% { background-position: 26.31578947368421% 100%;  }
+    89.62962962962962% { background-position: 31.57894736842105% 100%;  }
+    90.37037037037037% { background-position: 36.8421052631579% 100%;  }
+    91.11111111111111% { background-position: 42.10526315789474% 100%;  }
+    91.85185185185185% { background-position: 47.36842105263158% 100%;  }
+    92.5925925925926% { background-position: 52.63157894736842% 100%;  }
+    93.33333333333333% { background-position: 57.89473684210526% 100%;  }
+    94.07407407407408% { background-position: 63.1578947368421% 100%;  }
+    94.81481481481482% { background-position: 68.42105263157895% 100%;  }
+    95.55555555555556% { background-position: 73.6842105263158% 100%;  }
+    96.29629629629629% { background-position: 78.94736842105263% 100%;  }
+    97.03703703703704% { background-position: 84.21052631578948% 100%;  }
+    97.77777777777777% { background-position: 89.47368421052632% 100%;  }
+    98.51851851851852% { background-position: 94.73684210526316% 100%;  }
+    99.25925925925925% { background-position: 100% 100%;  }
+}
+
+.idlealt-animation {
+    max-width: 188px;
+    max-height: 188px;
+}
+.idlealt-animation::after {
+    content: '\00a0';
+    display: inline-block;
+    width: 188px;
+    height: 188px;
+    padding: 0;
+    background-image: url(idlespritesnopack.png);
+    background-size: 2000% 1200%; 
+    animation-name: idlealt-frames;
+    animation-timing-function: steps(1);
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+div.idlealt-animation::after {
+    max-width: 188px;
+    width: 100%;
+    height: 0;
+    padding: 0 0 100% 0;
+}
+
+/* $TexturePacker:SmartUpdate:6ba50a234805aa21c9d28a02ace20f90:4baa88480e5ba4fd34bb4e6f868c9217:dff26e49a2f9e4f11ed2a7fecaa50292$ */

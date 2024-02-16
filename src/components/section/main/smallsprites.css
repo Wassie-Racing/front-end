@@ -1,0 +1,1051 @@
+/*
+-------------------------------------------------------------------
+Created with TexturePacker https://www.codeandweb.com/texturepacker
+-------------------------------------------------------------------
+Inline:     <i class="yourspritesname"></i>
+Responsive: <div class="yourspritesname"></div>
+*/
+
+.ball001 {max-width:150px; max-height:150px; }
+.ball001::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 0% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball001::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball002 {max-width:150px; max-height:150px; }
+.ball002::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 0% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball002::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball003 {max-width:150px; max-height:150px; }
+.ball003::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 0% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball003::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball004 {max-width:150px; max-height:150px; }
+.ball004::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 0% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball004::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball005 {max-width:150px; max-height:150px; }
+.ball005::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 0% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball005::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball006 {max-width:150px; max-height:150px; }
+.ball006::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 0% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball006::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball007 {max-width:150px; max-height:150px; }
+.ball007::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 0% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball007::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball008 {max-width:150px; max-height:150px; }
+.ball008::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 0% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball008::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball009 {max-width:150px; max-height:150px; }
+.ball009::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 0% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball009::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball010 {max-width:150px; max-height:150px; }
+.ball010::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 4.166666666666667% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball010::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball011 {max-width:150px; max-height:150px; }
+.ball011::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 4.166666666666667% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball011::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball012 {max-width:150px; max-height:150px; }
+.ball012::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 4.166666666666667% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball012::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball013 {max-width:150px; max-height:150px; }
+.ball013::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 4.166666666666667% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball013::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball014 {max-width:150px; max-height:150px; }
+.ball014::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 4.166666666666667% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball014::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball015 {max-width:150px; max-height:150px; }
+.ball015::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 4.166666666666667% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball015::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball016 {max-width:150px; max-height:150px; }
+.ball016::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 4.166666666666667% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball016::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball017 {max-width:150px; max-height:150px; }
+.ball017::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 4.166666666666667% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball017::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball018 {max-width:150px; max-height:150px; }
+.ball018::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 4.166666666666667% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball018::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball019 {max-width:150px; max-height:150px; }
+.ball019::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 8.333333333333334% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball019::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball020 {max-width:150px; max-height:150px; }
+.ball020::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 8.333333333333334% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball020::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball021 {max-width:150px; max-height:150px; }
+.ball021::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 8.333333333333334% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball021::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball022 {max-width:150px; max-height:150px; }
+.ball022::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 8.333333333333334% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball022::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball023 {max-width:150px; max-height:150px; }
+.ball023::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 8.333333333333334% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball023::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball024 {max-width:150px; max-height:150px; }
+.ball024::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 8.333333333333334% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball024::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball025 {max-width:150px; max-height:150px; }
+.ball025::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 8.333333333333334% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball025::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball026 {max-width:150px; max-height:150px; }
+.ball026::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 8.333333333333334% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball026::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball027 {max-width:150px; max-height:150px; }
+.ball027::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 8.333333333333334% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball027::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball028 {max-width:150px; max-height:150px; }
+.ball028::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 12.5% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball028::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball029 {max-width:150px; max-height:150px; }
+.ball029::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 12.5% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball029::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball030 {max-width:150px; max-height:150px; }
+.ball030::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 12.5% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball030::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball031 {max-width:150px; max-height:150px; }
+.ball031::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 12.5% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball031::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball032 {max-width:150px; max-height:150px; }
+.ball032::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 12.5% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball032::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball033 {max-width:150px; max-height:150px; }
+.ball033::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 12.5% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball033::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball034 {max-width:150px; max-height:150px; }
+.ball034::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 12.5% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball034::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball035 {max-width:150px; max-height:150px; }
+.ball035::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 12.5% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball035::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball036 {max-width:150px; max-height:150px; }
+.ball036::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 12.5% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball036::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball037 {max-width:150px; max-height:150px; }
+.ball037::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 16.666666666666668% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball037::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball038 {max-width:150px; max-height:150px; }
+.ball038::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 16.666666666666668% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball038::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball039 {max-width:150px; max-height:150px; }
+.ball039::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 16.666666666666668% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball039::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball040 {max-width:150px; max-height:150px; }
+.ball040::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 16.666666666666668% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball040::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball041 {max-width:150px; max-height:150px; }
+.ball041::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 16.666666666666668% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball041::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball042 {max-width:150px; max-height:150px; }
+.ball042::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 16.666666666666668% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball042::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball043 {max-width:150px; max-height:150px; }
+.ball043::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 16.666666666666668% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball043::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball044 {max-width:150px; max-height:150px; }
+.ball044::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 16.666666666666668% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball044::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball045 {max-width:150px; max-height:150px; }
+.ball045::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 16.666666666666668% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball045::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball046 {max-width:150px; max-height:150px; }
+.ball046::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 20.833333333333332% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball046::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball047 {max-width:150px; max-height:150px; }
+.ball047::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 20.833333333333332% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball047::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball048 {max-width:150px; max-height:150px; }
+.ball048::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 20.833333333333332% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball048::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball049 {max-width:150px; max-height:150px; }
+.ball049::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 20.833333333333332% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball049::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball050 {max-width:150px; max-height:150px; }
+.ball050::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 20.833333333333332% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball050::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball051 {max-width:150px; max-height:150px; }
+.ball051::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 20.833333333333332% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball051::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball052 {max-width:150px; max-height:150px; }
+.ball052::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 20.833333333333332% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball052::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball053 {max-width:150px; max-height:150px; }
+.ball053::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 20.833333333333332% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball053::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball054 {max-width:150px; max-height:150px; }
+.ball054::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 20.833333333333332% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball054::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball055 {max-width:150px; max-height:150px; }
+.ball055::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 25% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball055::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball056 {max-width:150px; max-height:150px; }
+.ball056::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 25% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball056::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball057 {max-width:150px; max-height:150px; }
+.ball057::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 25% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball057::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball058 {max-width:150px; max-height:150px; }
+.ball058::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 25% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball058::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball059 {max-width:150px; max-height:150px; }
+.ball059::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 25% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball059::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.ball060 {max-width:150px; max-height:150px; }
+.ball060::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 25% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.ball060::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle001 {max-width:150px; max-height:150px; }
+.idle001::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 25% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle001::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle002 {max-width:150px; max-height:150px; }
+.idle002::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 25% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle002::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle003 {max-width:150px; max-height:150px; }
+.idle003::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 25% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle003::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle004 {max-width:150px; max-height:150px; }
+.idle004::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle004::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle005 {max-width:150px; max-height:150px; }
+.idle005::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle005::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle006 {max-width:150px; max-height:150px; }
+.idle006::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle006::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle007 {max-width:150px; max-height:150px; }
+.idle007::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle007::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle008 {max-width:150px; max-height:150px; }
+.idle008::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle008::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle009 {max-width:150px; max-height:150px; }
+.idle009::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle009::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle010 {max-width:150px; max-height:150px; }
+.idle010::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle010::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle011 {max-width:150px; max-height:150px; }
+.idle011::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle011::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle012 {max-width:150px; max-height:150px; }
+.idle012::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle012::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle013 {max-width:150px; max-height:150px; }
+.idle013::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle013::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle014 {max-width:150px; max-height:150px; }
+.idle014::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle014::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle015 {max-width:150px; max-height:150px; }
+.idle015::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle015::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle016 {max-width:150px; max-height:150px; }
+.idle016::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle016::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle017 {max-width:150px; max-height:150px; }
+.idle017::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle017::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle018 {max-width:150px; max-height:150px; }
+.idle018::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle018::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle019 {max-width:150px; max-height:150px; }
+.idle019::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle019::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle020 {max-width:150px; max-height:150px; }
+.idle020::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle020::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle021 {max-width:150px; max-height:150px; }
+.idle021::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle021::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle022 {max-width:150px; max-height:150px; }
+.idle022::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle022::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle023 {max-width:150px; max-height:150px; }
+.idle023::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle023::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle024 {max-width:150px; max-height:150px; }
+.idle024::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle024::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle025 {max-width:150px; max-height:150px; }
+.idle025::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle025::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle026 {max-width:150px; max-height:150px; }
+.idle026::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle026::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle027 {max-width:150px; max-height:150px; }
+.idle027::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle027::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle028 {max-width:150px; max-height:150px; }
+.idle028::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle028::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle029 {max-width:150px; max-height:150px; }
+.idle029::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle029::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle030 {max-width:150px; max-height:150px; }
+.idle030::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle030::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle031 {max-width:150px; max-height:150px; }
+.idle031::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle031::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle032 {max-width:150px; max-height:150px; }
+.idle032::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle032::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle033 {max-width:150px; max-height:150px; }
+.idle033::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 33.333333333333336% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle033::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle034 {max-width:150px; max-height:150px; }
+.idle034::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle034::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle035 {max-width:150px; max-height:150px; }
+.idle035::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle035::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle036 {max-width:150px; max-height:150px; }
+.idle036::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle036::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle037 {max-width:150px; max-height:150px; }
+.idle037::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle037::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle038 {max-width:150px; max-height:150px; }
+.idle038::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 29.166666666666668% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle038::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle039 {max-width:150px; max-height:150px; }
+.idle039::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle039::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle040 {max-width:150px; max-height:150px; }
+.idle040::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 37.5% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle040::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle041 {max-width:150px; max-height:150px; }
+.idle041::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 41.666666666666664% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle041::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle042 {max-width:150px; max-height:150px; }
+.idle042::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 41.666666666666664% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle042::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle043 {max-width:150px; max-height:150px; }
+.idle043::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 41.666666666666664% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle043::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle044 {max-width:150px; max-height:150px; }
+.idle044::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 41.666666666666664% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle044::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idle045 {max-width:150px; max-height:150px; }
+.idle045::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 41.666666666666664% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idle045::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt001 {max-width:150px; max-height:150px; }
+.idlealt001::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 41.666666666666664% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt001::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt002 {max-width:150px; max-height:150px; }
+.idlealt002::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 41.666666666666664% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt002::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt003 {max-width:150px; max-height:150px; }
+.idlealt003::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 41.666666666666664% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt003::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt004 {max-width:150px; max-height:150px; }
+.idlealt004::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 41.666666666666664% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt004::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt005 {max-width:150px; max-height:150px; }
+.idlealt005::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 45.833333333333336% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt005::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt006 {max-width:150px; max-height:150px; }
+.idlealt006::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 45.833333333333336% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt006::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt007 {max-width:150px; max-height:150px; }
+.idlealt007::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 45.833333333333336% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt007::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt008 {max-width:150px; max-height:150px; }
+.idlealt008::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 45.833333333333336% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt008::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt009 {max-width:150px; max-height:150px; }
+.idlealt009::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 45.833333333333336% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt009::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt010 {max-width:150px; max-height:150px; }
+.idlealt010::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 45.833333333333336% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt010::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt011 {max-width:150px; max-height:150px; }
+.idlealt011::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 45.833333333333336% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt011::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt012 {max-width:150px; max-height:150px; }
+.idlealt012::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 45.833333333333336% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt012::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt013 {max-width:150px; max-height:150px; }
+.idlealt013::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 45.833333333333336% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt013::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt014 {max-width:150px; max-height:150px; }
+.idlealt014::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 50% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt014::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt015 {max-width:150px; max-height:150px; }
+.idlealt015::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 50% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt015::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt016 {max-width:150px; max-height:150px; }
+.idlealt016::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 50% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt016::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt017 {max-width:150px; max-height:150px; }
+.idlealt017::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 50% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt017::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt018 {max-width:150px; max-height:150px; }
+.idlealt018::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 50% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt018::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt019 {max-width:150px; max-height:150px; }
+.idlealt019::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 50% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt019::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt020 {max-width:150px; max-height:150px; }
+.idlealt020::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 50% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt020::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt021 {max-width:150px; max-height:150px; }
+.idlealt021::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 50% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt021::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt022 {max-width:150px; max-height:150px; }
+.idlealt022::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 50% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt022::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt023 {max-width:150px; max-height:150px; }
+.idlealt023::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 54.166666666666664% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt023::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt024 {max-width:150px; max-height:150px; }
+.idlealt024::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 54.166666666666664% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt024::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt025 {max-width:150px; max-height:150px; }
+.idlealt025::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 54.166666666666664% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt025::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt026 {max-width:150px; max-height:150px; }
+.idlealt026::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 54.166666666666664% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt026::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt027 {max-width:150px; max-height:150px; }
+.idlealt027::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 54.166666666666664% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt027::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt028 {max-width:150px; max-height:150px; }
+.idlealt028::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 54.166666666666664% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt028::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt029 {max-width:150px; max-height:150px; }
+.idlealt029::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 54.166666666666664% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt029::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt030 {max-width:150px; max-height:150px; }
+.idlealt030::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 54.166666666666664% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt030::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt031 {max-width:150px; max-height:150px; }
+.idlealt031::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 54.166666666666664% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt031::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt032 {max-width:150px; max-height:150px; }
+.idlealt032::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 58.333333333333336% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt032::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt033 {max-width:150px; max-height:150px; }
+.idlealt033::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 58.333333333333336% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt033::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt034 {max-width:150px; max-height:150px; }
+.idlealt034::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 58.333333333333336% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt034::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt035 {max-width:150px; max-height:150px; }
+.idlealt035::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 58.333333333333336% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt035::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt036 {max-width:150px; max-height:150px; }
+.idlealt036::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 58.333333333333336% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt036::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt037 {max-width:150px; max-height:150px; }
+.idlealt037::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 58.333333333333336% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt037::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt038 {max-width:150px; max-height:150px; }
+.idlealt038::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 58.333333333333336% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt038::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt039 {max-width:150px; max-height:150px; }
+.idlealt039::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 58.333333333333336% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt039::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt040 {max-width:150px; max-height:150px; }
+.idlealt040::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 58.333333333333336% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt040::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt041 {max-width:150px; max-height:150px; }
+.idlealt041::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt041::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt042 {max-width:150px; max-height:150px; }
+.idlealt042::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt042::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt043 {max-width:150px; max-height:150px; }
+.idlealt043::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt043::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt044 {max-width:150px; max-height:150px; }
+.idlealt044::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt044::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt045 {max-width:150px; max-height:150px; }
+.idlealt045::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt045::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt046 {max-width:150px; max-height:150px; }
+.idlealt046::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt046::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt047 {max-width:150px; max-height:150px; }
+.idlealt047::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt047::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt048 {max-width:150px; max-height:150px; }
+.idlealt048::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt048::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt049 {max-width:150px; max-height:150px; }
+.idlealt049::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt049::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt050 {max-width:150px; max-height:150px; }
+.idlealt050::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt050::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt051 {max-width:150px; max-height:150px; }
+.idlealt051::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt051::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt052 {max-width:150px; max-height:150px; }
+.idlealt052::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt052::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt053 {max-width:150px; max-height:150px; }
+.idlealt053::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt053::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt054 {max-width:150px; max-height:150px; }
+.idlealt054::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt054::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt055 {max-width:150px; max-height:150px; }
+.idlealt055::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt055::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt056 {max-width:150px; max-height:150px; }
+.idlealt056::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt056::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt057 {max-width:150px; max-height:150px; }
+.idlealt057::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt057::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt058 {max-width:150px; max-height:150px; }
+.idlealt058::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt058::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt059 {max-width:150px; max-height:150px; }
+.idlealt059::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt059::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt060 {max-width:150px; max-height:150px; }
+.idlealt060::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt060::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt061 {max-width:150px; max-height:150px; }
+.idlealt061::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt061::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt062 {max-width:150px; max-height:150px; }
+.idlealt062::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt062::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt063 {max-width:150px; max-height:150px; }
+.idlealt063::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt063::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt064 {max-width:150px; max-height:150px; }
+.idlealt064::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt064::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt065 {max-width:150px; max-height:150px; }
+.idlealt065::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 62.5% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt065::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt066 {max-width:150px; max-height:150px; }
+.idlealt066::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt066::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt067 {max-width:150px; max-height:150px; }
+.idlealt067::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt067::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt068 {max-width:150px; max-height:150px; }
+.idlealt068::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 66.66666666666667% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt068::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt069 {max-width:150px; max-height:150px; }
+.idlealt069::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 70.83333333333333% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt069::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt070 {max-width:150px; max-height:150px; }
+.idlealt070::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 75% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt070::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt071 {max-width:150px; max-height:150px; }
+.idlealt071::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 79.16666666666667% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt071::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt072 {max-width:150px; max-height:150px; }
+.idlealt072::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 83.33333333333333% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt072::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt073 {max-width:150px; max-height:150px; }
+.idlealt073::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 87.5% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt073::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt074 {max-width:150px; max-height:150px; }
+.idlealt074::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 91.66666666666667% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt074::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt075 {max-width:150px; max-height:150px; }
+.idlealt075::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 95.83333333333333% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt075::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt076 {max-width:150px; max-height:150px; }
+.idlealt076::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 100% 0%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt076::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt077 {max-width:150px; max-height:150px; }
+.idlealt077::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 70.83333333333333% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt077::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt078 {max-width:150px; max-height:150px; }
+.idlealt078::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 70.83333333333333% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt078::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt079 {max-width:150px; max-height:150px; }
+.idlealt079::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 70.83333333333333% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt079::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt080 {max-width:150px; max-height:150px; }
+.idlealt080::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 70.83333333333333% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt080::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt081 {max-width:150px; max-height:150px; }
+.idlealt081::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 70.83333333333333% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt081::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt082 {max-width:150px; max-height:150px; }
+.idlealt082::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 70.83333333333333% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt082::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt083 {max-width:150px; max-height:150px; }
+.idlealt083::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 70.83333333333333% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt083::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt084 {max-width:150px; max-height:150px; }
+.idlealt084::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 70.83333333333333% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt084::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt085 {max-width:150px; max-height:150px; }
+.idlealt085::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 75% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt085::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt086 {max-width:150px; max-height:150px; }
+.idlealt086::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 79.16666666666667% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt086::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt087 {max-width:150px; max-height:150px; }
+.idlealt087::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 83.33333333333333% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt087::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt088 {max-width:150px; max-height:150px; }
+.idlealt088::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 87.5% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt088::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt089 {max-width:150px; max-height:150px; }
+.idlealt089::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 91.66666666666667% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt089::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt090 {max-width:150px; max-height:150px; }
+.idlealt090::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 95.83333333333333% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt090::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt091 {max-width:150px; max-height:150px; }
+.idlealt091::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 100% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt091::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt092 {max-width:150px; max-height:150px; }
+.idlealt092::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 75% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt092::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt093 {max-width:150px; max-height:150px; }
+.idlealt093::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 75% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt093::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt094 {max-width:150px; max-height:150px; }
+.idlealt094::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 75% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt094::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt095 {max-width:150px; max-height:150px; }
+.idlealt095::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 75% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt095::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt096 {max-width:150px; max-height:150px; }
+.idlealt096::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 75% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt096::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt097 {max-width:150px; max-height:150px; }
+.idlealt097::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 75% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt097::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt098 {max-width:150px; max-height:150px; }
+.idlealt098::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 75% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt098::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt099 {max-width:150px; max-height:150px; }
+.idlealt099::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 79.16666666666667% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt099::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt100 {max-width:150px; max-height:150px; }
+.idlealt100::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 83.33333333333333% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt100::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt101 {max-width:150px; max-height:150px; }
+.idlealt101::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 87.5% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt101::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt102 {max-width:150px; max-height:150px; }
+.idlealt102::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 91.66666666666667% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt102::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt103 {max-width:150px; max-height:150px; }
+.idlealt103::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 95.83333333333333% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt103::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt104 {max-width:150px; max-height:150px; }
+.idlealt104::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 100% 25%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt104::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt105 {max-width:150px; max-height:150px; }
+.idlealt105::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 79.16666666666667% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt105::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt106 {max-width:150px; max-height:150px; }
+.idlealt106::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 79.16666666666667% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt106::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt107 {max-width:150px; max-height:150px; }
+.idlealt107::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 79.16666666666667% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt107::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt108 {max-width:150px; max-height:150px; }
+.idlealt108::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 79.16666666666667% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt108::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt109 {max-width:150px; max-height:150px; }
+.idlealt109::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 79.16666666666667% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt109::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt110 {max-width:150px; max-height:150px; }
+.idlealt110::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 79.16666666666667% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt110::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt111 {max-width:150px; max-height:150px; }
+.idlealt111::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 83.33333333333333% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt111::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt112 {max-width:150px; max-height:150px; }
+.idlealt112::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 87.5% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt112::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt113 {max-width:150px; max-height:150px; }
+.idlealt113::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 91.66666666666667% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt113::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt114 {max-width:150px; max-height:150px; }
+.idlealt114::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 95.83333333333333% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt114::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt115 {max-width:150px; max-height:150px; }
+.idlealt115::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 100% 37.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt115::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt116 {max-width:150px; max-height:150px; }
+.idlealt116::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 83.33333333333333% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt116::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt117 {max-width:150px; max-height:150px; }
+.idlealt117::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 83.33333333333333% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt117::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt118 {max-width:150px; max-height:150px; }
+.idlealt118::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 83.33333333333333% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt118::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt119 {max-width:150px; max-height:150px; }
+.idlealt119::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 83.33333333333333% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt119::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt120 {max-width:150px; max-height:150px; }
+.idlealt120::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 83.33333333333333% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt120::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt121 {max-width:150px; max-height:150px; }
+.idlealt121::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 87.5% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt121::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt122 {max-width:150px; max-height:150px; }
+.idlealt122::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 91.66666666666667% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt122::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt123 {max-width:150px; max-height:150px; }
+.idlealt123::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 95.83333333333333% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt123::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt124 {max-width:150px; max-height:150px; }
+.idlealt124::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 100% 50%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt124::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt125 {max-width:150px; max-height:150px; }
+.idlealt125::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 87.5% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt125::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt126 {max-width:150px; max-height:150px; }
+.idlealt126::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 87.5% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt126::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt127 {max-width:150px; max-height:150px; }
+.idlealt127::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 87.5% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt127::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt128 {max-width:150px; max-height:150px; }
+.idlealt128::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 87.5% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt128::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt129 {max-width:150px; max-height:150px; }
+.idlealt129::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 91.66666666666667% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt129::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt130 {max-width:150px; max-height:150px; }
+.idlealt130::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 95.83333333333333% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt130::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt131 {max-width:150px; max-height:150px; }
+.idlealt131::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 100% 62.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt131::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt132 {max-width:150px; max-height:150px; }
+.idlealt132::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 91.66666666666667% 75%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt132::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt133 {max-width:150px; max-height:150px; }
+.idlealt133::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 91.66666666666667% 87.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt133::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt134 {max-width:150px; max-height:150px; }
+.idlealt134::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 91.66666666666667% 100%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt134::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+.idlealt135 {max-width:150px; max-height:150px; }
+.idlealt135::after {content: '\00a0';display: inline-block; width:150px; height:150px; background-position: 95.83333333333333% 12.5%; background-size: 2500% 900%; background-image: url(smallsprites.png);padding: 0; }
+div.idlealt135::after {max-width:150px; width:100%;height:0;padding: 0 0 100% 0;}
+
+@keyframes ball-frames {
+    0% { background-position: 0% 0%;  }
+    1.6666666666666667% { background-position: 0% 12.5%;  }
+    3.3333333333333335% { background-position: 0% 25%;  }
+    5% { background-position: 0% 37.5%;  }
+    6.666666666666667% { background-position: 0% 50%;  }
+    8.333333333333332% { background-position: 0% 62.5%;  }
+    10% { background-position: 0% 75%;  }
+    11.666666666666666% { background-position: 0% 87.5%;  }
+    13.333333333333334% { background-position: 0% 100%;  }
+    15% { background-position: 4.166666666666667% 0%;  }
+    16.666666666666664% { background-position: 4.166666666666667% 12.5%;  }
+    18.333333333333332% { background-position: 4.166666666666667% 25%;  }
+    20% { background-position: 4.166666666666667% 37.5%;  }
+    21.666666666666668% { background-position: 4.166666666666667% 50%;  }
+    23.333333333333332% { background-position: 4.166666666666667% 62.5%;  }
+    25% { background-position: 4.166666666666667% 75%;  }
+    26.666666666666668% { background-position: 4.166666666666667% 87.5%;  }
+    28.333333333333332% { background-position: 4.166666666666667% 100%;  }
+    30% { background-position: 8.333333333333334% 0%;  }
+    31.666666666666664% { background-position: 8.333333333333334% 12.5%;  }
+    33.33333333333333% { background-position: 8.333333333333334% 25%;  }
+    35% { background-position: 8.333333333333334% 37.5%;  }
+    36.666666666666664% { background-position: 8.333333333333334% 50%;  }
+    38.333333333333336% { background-position: 8.333333333333334% 62.5%;  }
+    40% { background-position: 8.333333333333334% 75%;  }
+    41.66666666666667% { background-position: 8.333333333333334% 87.5%;  }
+    43.333333333333336% { background-position: 8.333333333333334% 100%;  }
+    45% { background-position: 12.5% 0%;  }
+    46.666666666666664% { background-position: 12.5% 12.5%;  }
+    48.333333333333336% { background-position: 12.5% 25%;  }
+    50% { background-position: 12.5% 37.5%;  }
+    51.66666666666667% { background-position: 12.5% 50%;  }
+    53.333333333333336% { background-position: 12.5% 62.5%;  }
+    55.00000000000001% { background-position: 12.5% 75%;  }
+    56.666666666666664% { background-position: 12.5% 87.5%;  }
+    58.333333333333336% { background-position: 12.5% 100%;  }
+    60% { background-position: 16.666666666666668% 0%;  }
+    61.66666666666667% { background-position: 16.666666666666668% 12.5%;  }
+    63.33333333333333% { background-position: 16.666666666666668% 25%;  }
+    65% { background-position: 16.666666666666668% 37.5%;  }
+    66.66666666666666% { background-position: 16.666666666666668% 50%;  }
+    68.33333333333333% { background-position: 16.666666666666668% 62.5%;  }
+    70% { background-position: 16.666666666666668% 75%;  }
+    71.66666666666667% { background-position: 16.666666666666668% 87.5%;  }
+    73.33333333333333% { background-position: 16.666666666666668% 100%;  }
+    75% { background-position: 20.833333333333332% 0%;  }
+    76.66666666666667% { background-position: 20.833333333333332% 12.5%;  }
+    78.33333333333333% { background-position: 20.833333333333332% 25%;  }
+    80% { background-position: 20.833333333333332% 37.5%;  }
+    81.66666666666667% { background-position: 20.833333333333332% 50%;  }
+    83.33333333333334% { background-position: 20.833333333333332% 62.5%;  }
+    85% { background-position: 20.833333333333332% 75%;  }
+    86.66666666666667% { background-position: 20.833333333333332% 87.5%;  }
+    88.33333333333333% { background-position: 20.833333333333332% 100%;  }
+    90% { background-position: 25% 0%;  }
+    91.66666666666666% { background-position: 25% 12.5%;  }
+    93.33333333333333% { background-position: 25% 25%;  }
+    95% { background-position: 25% 37.5%;  }
+    96.66666666666667% { background-position: 25% 50%;  }
+    98.33333333333333% { background-position: 25% 62.5%;  }
+}
+
+.ball-animation {
+    max-width: 150px;
+    max-height: 150px;
+}
+.ball-animation::after {
+    content: '\00a0';
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    background-image: url(smallsprites.png);
+    background-size: 2500% 900%; 
+    animation-name: ball-frames;
+    animation-timing-function: steps(1);
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+div.ball-animation::after {
+    max-width: 150px;
+    width: 100%;
+    height: 0;
+    padding: 0 0 100% 0;
+}
+
+@keyframes idle-frames {
+    0% { background-position: 25% 75%;  }
+    2.2222222222222223% { background-position: 25% 87.5%;  }
+    4.444444444444445% { background-position: 25% 100%;  }
+    6.666666666666667% { background-position: 29.166666666666668% 0%;  }
+    8.88888888888889% { background-position: 29.166666666666668% 12.5%;  }
+    11.11111111111111% { background-position: 29.166666666666668% 25%;  }
+    13.333333333333334% { background-position: 29.166666666666668% 37.5%;  }
+    15.555555555555555% { background-position: 29.166666666666668% 50%;  }
+    17.77777777777778% { background-position: 29.166666666666668% 62.5%;  }
+    20% { background-position: 29.166666666666668% 75%;  }
+    22.22222222222222% { background-position: 29.166666666666668% 87.5%;  }
+    24.444444444444443% { background-position: 29.166666666666668% 100%;  }
+    26.666666666666668% { background-position: 33.333333333333336% 0%;  }
+    28.888888888888886% { background-position: 33.333333333333336% 12.5%;  }
+    31.11111111111111% { background-position: 33.333333333333336% 25%;  }
+    33.33333333333333% { background-position: 33.333333333333336% 37.5%;  }
+    35.55555555555556% { background-position: 33.333333333333336% 50%;  }
+    37.77777777777778% { background-position: 33.333333333333336% 62.5%;  }
+    40% { background-position: 33.333333333333336% 75%;  }
+    42.22222222222222% { background-position: 33.333333333333336% 87.5%;  }
+    44.44444444444444% { background-position: 33.333333333333336% 100%;  }
+    46.666666666666664% { background-position: 37.5% 0%;  }
+    48.888888888888886% { background-position: 37.5% 12.5%;  }
+    51.11111111111111% { background-position: 37.5% 0%;  }
+    53.333333333333336% { background-position: 33.333333333333336% 100%;  }
+    55.55555555555556% { background-position: 37.5% 25%;  }
+    57.77777777777777% { background-position: 33.333333333333336% 75%;  }
+    60% { background-position: 37.5% 37.5%;  }
+    62.22222222222222% { background-position: 33.333333333333336% 50%;  }
+    64.44444444444444% { background-position: 33.333333333333336% 37.5%;  }
+    66.66666666666666% { background-position: 37.5% 50%;  }
+    68.88888888888889% { background-position: 33.333333333333336% 12.5%;  }
+    71.11111111111111% { background-position: 33.333333333333336% 0%;  }
+    73.33333333333333% { background-position: 29.166666666666668% 100%;  }
+    75.55555555555556% { background-position: 37.5% 62.5%;  }
+    77.77777777777779% { background-position: 37.5% 75%;  }
+    80% { background-position: 29.166666666666668% 62.5%;  }
+    82.22222222222221% { background-position: 29.166666666666668% 50%;  }
+    84.44444444444444% { background-position: 37.5% 87.5%;  }
+    86.66666666666667% { background-position: 37.5% 100%;  }
+    88.88888888888889% { background-position: 41.666666666666664% 0%;  }
+    91.11111111111111% { background-position: 41.666666666666664% 12.5%;  }
+    93.33333333333333% { background-position: 41.666666666666664% 25%;  }
+    95.55555555555556% { background-position: 41.666666666666664% 37.5%;  }
+    97.77777777777777% { background-position: 41.666666666666664% 50%;  }
+}
+
+.idle-animation {
+    max-width: 150px;
+    max-height: 150px;
+}
+.idle-animation::after {
+    content: '\00a0';
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    background-image: url(smallsprites.png);
+    background-size: 2500% 900%; 
+    animation-name: idle-frames;
+    animation-timing-function: steps(1);
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+div.idle-animation::after {
+    max-width: 150px;
+    width: 100%;
+    height: 0;
+    padding: 0 0 100% 0;
+}
+
+@keyframes idlealt-frames {
+    0% { background-position: 41.666666666666664% 62.5%;  }
+    0.7407407407407408% { background-position: 41.666666666666664% 75%;  }
+    1.4814814814814816% { background-position: 41.666666666666664% 87.5%;  }
+    2.2222222222222223% { background-position: 41.666666666666664% 100%;  }
+    2.9629629629629632% { background-position: 45.833333333333336% 0%;  }
+    3.7037037037037033% { background-position: 45.833333333333336% 12.5%;  }
+    4.444444444444445% { background-position: 45.833333333333336% 25%;  }
+    5.185185185185185% { background-position: 45.833333333333336% 37.5%;  }
+    5.9259259259259265% { background-position: 45.833333333333336% 50%;  }
+    6.666666666666667% { background-position: 45.833333333333336% 62.5%;  }
+    7.4074074074074066% { background-position: 45.833333333333336% 75%;  }
+    8.148148148148149% { background-position: 45.833333333333336% 87.5%;  }
+    8.88888888888889% { background-position: 45.833333333333336% 100%;  }
+    9.62962962962963% { background-position: 50% 0%;  }
+    10.37037037037037% { background-position: 50% 12.5%;  }
+    11.11111111111111% { background-position: 50% 25%;  }
+    11.851851851851853% { background-position: 50% 37.5%;  }
+    12.592592592592592% { background-position: 50% 50%;  }
+    13.333333333333334% { background-position: 50% 62.5%;  }
+    14.074074074074074% { background-position: 50% 75%;  }
+    14.814814814814813% { background-position: 50% 87.5%;  }
+    15.555555555555555% { background-position: 50% 100%;  }
+    16.296296296296298% { background-position: 54.166666666666664% 0%;  }
+    17.037037037037038% { background-position: 54.166666666666664% 12.5%;  }
+    17.77777777777778% { background-position: 54.166666666666664% 25%;  }
+    18.51851851851852% { background-position: 54.166666666666664% 37.5%;  }
+    19.25925925925926% { background-position: 54.166666666666664% 50%;  }
+    20% { background-position: 54.166666666666664% 62.5%;  }
+    20.74074074074074% { background-position: 54.166666666666664% 75%;  }
+    21.48148148148148% { background-position: 54.166666666666664% 87.5%;  }
+    22.22222222222222% { background-position: 54.166666666666664% 100%;  }
+    22.962962962962962% { background-position: 58.333333333333336% 0%;  }
+    23.703703703703706% { background-position: 58.333333333333336% 12.5%;  }
+    24.444444444444443% { background-position: 58.333333333333336% 25%;  }
+    25.185185185185183% { background-position: 58.333333333333336% 37.5%;  }
+    25.925925925925924% { background-position: 58.333333333333336% 50%;  }
+    26.666666666666668% { background-position: 58.333333333333336% 62.5%;  }
+    27.40740740740741% { background-position: 58.333333333333336% 75%;  }
+    28.14814814814815% { background-position: 58.333333333333336% 87.5%;  }
+    28.888888888888886% { background-position: 58.333333333333336% 100%;  }
+    29.629629629629626% { background-position: 62.5% 0%;  }
+    30.37037037037037% { background-position: 62.5% 12.5%;  }
+    31.11111111111111% { background-position: 62.5% 25%;  }
+    31.851851851851855% { background-position: 62.5% 37.5%;  }
+    32.592592592592595% { background-position: 62.5% 50%;  }
+    33.33333333333333% { background-position: 62.5% 62.5%;  }
+    34.074074074074076% { background-position: 62.5% 75%;  }
+    34.81481481481482% { background-position: 62.5% 87.5%;  }
+    35.55555555555556% { background-position: 62.5% 100%;  }
+    36.2962962962963% { background-position: 66.66666666666667% 0%;  }
+    37.03703703703704% { background-position: 66.66666666666667% 12.5%;  }
+    37.77777777777778% { background-position: 66.66666666666667% 25%;  }
+    38.51851851851852% { background-position: 66.66666666666667% 37.5%;  }
+    39.25925925925926% { background-position: 66.66666666666667% 50%;  }
+    40% { background-position: 66.66666666666667% 62.5%;  }
+    40.74074074074074% { background-position: 66.66666666666667% 50%;  }
+    41.48148148148148% { background-position: 66.66666666666667% 37.5%;  }
+    42.22222222222222% { background-position: 66.66666666666667% 25%;  }
+    42.96296296296296% { background-position: 66.66666666666667% 12.5%;  }
+    43.7037037037037% { background-position: 66.66666666666667% 0%;  }
+    44.44444444444444% { background-position: 62.5% 100%;  }
+    45.18518518518518% { background-position: 62.5% 87.5%;  }
+    45.925925925925924% { background-position: 62.5% 75%;  }
+    46.666666666666664% { background-position: 62.5% 62.5%;  }
+    47.40740740740741% { background-position: 62.5% 50%;  }
+    48.148148148148145% { background-position: 66.66666666666667% 75%;  }
+    48.888888888888886% { background-position: 66.66666666666667% 87.5%;  }
+    49.629629629629626% { background-position: 66.66666666666667% 100%;  }
+    50.37037037037037% { background-position: 70.83333333333333% 0%;  }
+    51.11111111111111% { background-position: 75% 0%;  }
+    51.85185185185185% { background-position: 79.16666666666667% 0%;  }
+    52.59259259259259% { background-position: 83.33333333333333% 0%;  }
+    53.333333333333336% { background-position: 87.5% 0%;  }
+    54.074074074074076% { background-position: 91.66666666666667% 0%;  }
+    54.81481481481482% { background-position: 95.83333333333333% 0%;  }
+    55.55555555555556% { background-position: 100% 0%;  }
+    56.2962962962963% { background-position: 70.83333333333333% 12.5%;  }
+    57.03703703703704% { background-position: 70.83333333333333% 25%;  }
+    57.77777777777777% { background-position: 70.83333333333333% 37.5%;  }
+    58.51851851851851% { background-position: 70.83333333333333% 50%;  }
+    59.25925925925925% { background-position: 70.83333333333333% 62.5%;  }
+    60% { background-position: 70.83333333333333% 75%;  }
+    60.74074074074074% { background-position: 70.83333333333333% 87.5%;  }
+    61.48148148148148% { background-position: 70.83333333333333% 100%;  }
+    62.22222222222222% { background-position: 75% 12.5%;  }
+    62.96296296296296% { background-position: 79.16666666666667% 12.5%;  }
+    63.70370370370371% { background-position: 83.33333333333333% 12.5%;  }
+    64.44444444444444% { background-position: 87.5% 12.5%;  }
+    65.18518518518519% { background-position: 91.66666666666667% 12.5%;  }
+    65.92592592592592% { background-position: 95.83333333333333% 12.5%;  }
+    66.66666666666666% { background-position: 100% 12.5%;  }
+    67.4074074074074% { background-position: 75% 25%;  }
+    68.14814814814815% { background-position: 75% 37.5%;  }
+    68.88888888888889% { background-position: 75% 50%;  }
+    69.62962962962963% { background-position: 75% 62.5%;  }
+    70.37037037037037% { background-position: 75% 75%;  }
+    71.11111111111111% { background-position: 75% 87.5%;  }
+    71.85185185185186% { background-position: 75% 100%;  }
+    72.5925925925926% { background-position: 79.16666666666667% 25%;  }
+    73.33333333333333% { background-position: 83.33333333333333% 25%;  }
+    74.07407407407408% { background-position: 87.5% 25%;  }
+    74.81481481481481% { background-position: 91.66666666666667% 25%;  }
+    75.55555555555556% { background-position: 95.83333333333333% 25%;  }
+    76.29629629629629% { background-position: 100% 25%;  }
+    77.03703703703704% { background-position: 79.16666666666667% 37.5%;  }
+    77.77777777777779% { background-position: 79.16666666666667% 50%;  }
+    78.51851851851852% { background-position: 79.16666666666667% 62.5%;  }
+    79.25925925925927% { background-position: 79.16666666666667% 75%;  }
+    80% { background-position: 79.16666666666667% 87.5%;  }
+    80.74074074074075% { background-position: 79.16666666666667% 100%;  }
+    81.48148148148148% { background-position: 83.33333333333333% 37.5%;  }
+    82.22222222222221% { background-position: 87.5% 37.5%;  }
+    82.96296296296296% { background-position: 91.66666666666667% 37.5%;  }
+    83.7037037037037% { background-position: 95.83333333333333% 37.5%;  }
+    84.44444444444444% { background-position: 100% 37.5%;  }
+    85.18518518518519% { background-position: 83.33333333333333% 50%;  }
+    85.92592592592592% { background-position: 83.33333333333333% 62.5%;  }
+    86.66666666666667% { background-position: 83.33333333333333% 75%;  }
+    87.4074074074074% { background-position: 83.33333333333333% 87.5%;  }
+    88.14814814814815% { background-position: 83.33333333333333% 100%;  }
+    88.88888888888889% { background-position: 87.5% 50%;  }
+    89.62962962962962% { background-position: 91.66666666666667% 50%;  }
+    90.37037037037037% { background-position: 95.83333333333333% 50%;  }
+    91.11111111111111% { background-position: 100% 50%;  }
+    91.85185185185185% { background-position: 87.5% 62.5%;  }
+    92.5925925925926% { background-position: 87.5% 75%;  }
+    93.33333333333333% { background-position: 87.5% 87.5%;  }
+    94.07407407407408% { background-position: 87.5% 100%;  }
+    94.81481481481482% { background-position: 91.66666666666667% 62.5%;  }
+    95.55555555555556% { background-position: 95.83333333333333% 62.5%;  }
+    96.29629629629629% { background-position: 100% 62.5%;  }
+    97.03703703703704% { background-position: 91.66666666666667% 75%;  }
+    97.77777777777777% { background-position: 91.66666666666667% 87.5%;  }
+    98.51851851851852% { background-position: 91.66666666666667% 100%;  }
+    99.25925925925925% { background-position: 95.83333333333333% 12.5%;  }
+}
+
+.idlealt-animation {
+    max-width: 150px;
+    max-height: 150px;
+}
+.idlealt-animation::after {
+    content: '\00a0';
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    padding: 0;
+    background-image: url(smallsprites.png);
+    background-size: 2500% 900%; 
+    animation-name: idlealt-frames;
+    animation-timing-function: steps(1);
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+}
+div.idlealt-animation::after {
+    max-width: 150px;
+    width: 100%;
+    height: 0;
+    padding: 0 0 100% 0;
+}
+
+/* $TexturePacker:SmartUpdate:7f18638645b2f4a90f374ffb58dcc8fb:4baa88480e5ba4fd34bb4e6f868c9217:3f43dd239820a23c8edde1e7ac986565$ */
