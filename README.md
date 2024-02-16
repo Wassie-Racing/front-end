@@ -1,3 +1,9 @@
+Note: current infrastructure is going to change prior to mainnet launch as available node providers have insufficient range for eth_getLogs method as compared to the provider used for testing on sepolia
+
+As a result, only data from the last 1000 blocks will show in the global bet feed and user bet feed components
+
+We are going to redesign the bet feeds to account for this, likely migrating to graphql
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
