@@ -1,6 +1,7 @@
 import { Helmet } from "react-helmet";
 import favIcon from "../../assets/images/fav_icon.ico"
 import React from 'react';
+import './stylesheet.css';
 
 const Layout = ({ children }) => {
   return (

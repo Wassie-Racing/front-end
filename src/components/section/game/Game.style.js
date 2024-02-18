@@ -5,7 +5,7 @@ import bg2 from "../../../assets/images/bg2.webp"
 
 import wassieIdle1 from "./idlespritesnopack.png"
 import outer from "../../../assets/images/cloudtest.png"
-import wassieRun1 from "./runpritesnopack.png"
+import wassieRun1 from "./runpritesnopack.webp"
 import wassieEnd1 from "./endpritesnopack.png";
 
 const moveGradient = keyframes`
@@ -1072,6 +1072,24 @@ position: relative; /* Add this line */
     background-color: #FFF4F4; /* Adjust to your desired interior color */
     z-index: -1; /* Behind the content but above the background */
   }
+
+  @media (max-width: 1537px) {
+    .title {
+      text-transform: uppercase;
+      font-size: 125px;
+      position: absolute;
+      top: 25px; 
+      left: 50%;
+      transform: translateX(-50%);
+      text-align: center; 
+      white-space: nowrap;
+      text-shadow: 3px 3px 3px #eb452b, 
+                  5px 5px 5px #efa032, 
+                  7px 7px 7px #46b59b, 
+                  9px 9px 9px #017e7f, 
+                  11px 11px 12px #052939,
+                  13px 13px 15px #eb452b;
+    }
   
 `;
 

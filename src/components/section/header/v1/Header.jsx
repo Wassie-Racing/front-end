@@ -54,7 +54,7 @@ return (
             </ul>
           </div>
           <div className="Degenesys_menu_btns">
-          <a href="https://t.me/MDMAToken" aria-label="join telegram button">
+          <a href="https://t.me/WassieRacing" aria-label="join telegram button">
               <Button sm variant="telegram" className="join_btn">
                 <BsTelegram /> Join
               </Button>

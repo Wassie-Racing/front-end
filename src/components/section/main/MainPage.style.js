@@ -1459,6 +1459,7 @@ const MainPageStyleWrapper = styled.div`
               }
 
               .referral-input-box {
+                width: 100px;
                 font-size: 12px;
               }
 
@@ -2326,6 +2327,19 @@ const MainPageStyleWrapper = styled.div`
       }
     }
   }
+
+
+  @media (max-width: 1537px) {
+    .functions-box .functions-outer .functions-inner .bet-choices .bet-balances .user-house-balance .balance-title {
+      font-size: 18px;
+    }   
+    .modal-main {
+      height: 50%;
+      width: 40%;
+    }
+  }
+
+
 `;
 
 export default MainPageStyleWrapper;

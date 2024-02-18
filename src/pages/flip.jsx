@@ -11,6 +11,8 @@ import { publicProvider } from 'wagmi/providers/public'
 
 import {isMobile} from 'react-device-detect';
 import MobileStyleWrapper from "./Mobile.style";
+
+import '../common/layout/stylesheet.css';
  
 const { publicClient, webSocketPublicClient } = configureChains(
   [mainnet],

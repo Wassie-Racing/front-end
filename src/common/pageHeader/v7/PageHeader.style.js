@@ -451,6 +451,18 @@ const PageHeaderStyleWrapper = styled.div`
 
   }
 
+  @media (max-width: 1537px) {
+    .header a {
+      font-size: 36px;
+
+    }
+
+    .hl-modal-main .modal-button-container {
+      margin-top: 5vh;
+    }
+  }
+
+
 
 `;
 

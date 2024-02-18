@@ -2,7 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import GameStyleWrapper from './Game.style';
 
 import wassieIdle1 from "./idlespritesnopack.png"
-import wassieRun1 from "./runpritesnopack.png"
+import wassieRun1 from "./runpritesnopack.webp"
 import wassieEnd1 from "./endpritesnopack.png";
 
 import { ethers } from 'ethers';
@@ -492,7 +492,6 @@ const Game = () => {
     return value.replace(/[^0-9.]/g, ''); // Removes anything that's not a digit or a dot
   };
 
-
   return (
     <GameStyleWrapper>
       <div className="title-wrapper">      
@@ -527,11 +526,10 @@ const Game = () => {
                 />
               </div>
               <div id="start" >
-                <button className= "start-button" onClick={handleStartRace}>Start Race</button>
+                <button className= "start-button" onClick={handleStartRace}>Replay Race</button>
               </div>
 
             </div>
-
 
         </div>
       </div>

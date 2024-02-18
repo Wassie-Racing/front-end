@@ -582,6 +582,30 @@ const PageHeaderStyleWrapper = styled.div`
 
   }
 
+  @media (max-width: 1537px) {
+    .header a {
+      font-size: 36px;
+
+    }
+
+    .flip-modal-main .game {
+      gap: 0px;
+    }
+
+    .flip-modal-main .modal-button-container {
+      margin-top: 1vh;
+    }
+  }
+
+  .flip-modal-main { 
+    top: 55%;
+    height: 90vh;
+  }
+
+  .chat-box {
+    padding-bottom: 0vh;
+  }
+
 
 `;
 

@@ -38,6 +38,36 @@ import bg2 from "../../../assets/images/bg2.webp"
 import copyIcon from "./copy-solid.svg";
 import refreshIcon from "./refresh.svg";
 
+import '../../../common/layout/stylesheet.css';
+
+import { createClient, cacheExchange, fetchExchange } from '@urql/core'
+
+const GRAPH_API_KEY = process.env.REACT_APP_THEGRAPH_API_KEY;
+
+const APIURL = "https://gateway-arbitrum.network.thegraph.com/api/" + GRAPH_API_KEY + "/subgraphs/id/EepVyux1PitCG2Q62vnUtqCBLzLyxJZVWD6WNDKmWHod";
+
+
+const globalBetsQuery = `
+  query {
+    betPlaceds(first: 10, orderBy: blockTimestamp, orderDirection: desc) {
+      id
+      user
+      betId
+      betAmount
+      tokenSelection
+      choice
+      raceId
+      blockNumber
+      blockTimestamp
+      transactionHash
+    }
+  }
+`
+
+const graphClient = createClient({
+  url: APIURL,
+  exchanges: [cacheExchange, fetchExchange],
+});
 
 const chainImages = {
   168587773: blastLogoYellow
@@ -53,6 +83,60 @@ const themeVariables = {
 
 const MainPage = () => {
 
+  const getUserFeedQuery = (userAddress) => `
+    query {
+      betPlaceds(first: 5, orderBy: blockTimestamp, orderDirection: desc, where: {user: "${userAddress}"}) {
+        id
+        user
+        betId
+        betAmount
+        tokenSelection
+        choice
+        raceId
+        blockNumber
+        blockTimestamp
+        transactionHash
+      }
+    }
+  `;
+
+  // const fetchGlobalFeedGraphData = async () => { 
+  //   const globalBetsResponse = await graphClient.query(globalBetsQuery).toPromise();
+  //   console.log('global feed response:', globalBetsResponse);
+  // }
+
+  // const fetchUserBetsGraphData = async (address) => {
+  //   const query = getUserFeedQuery(address);
+  //   try {
+  //     const userBetsResponse = await graphClient.query({ query }).toPromise();
+  //     console.log('user bets response:', userBetsResponse);
+  
+  //     // Process and reverse the list to have the earliest bet at the bottom
+  //     const initialUserBets = userBetsResponse.data.betPlaceds.map(bet => ({
+  //       betId: bet.betId,
+  //       betAmount: ethers.utils.formatEther(bet.betAmount),
+  //       tokenSelection: currencyNames[bet.tokenSelection?.toLowerCase()] ?? "Unknown Currency",
+  //       choice: bet.choice,
+  //       raceId: bet.raceId,
+  //       status: "pending" // Assuming you need to set an initial status
+  //     })).reverse();
+  
+  //     setRecentBets(initialUserBets); // Update your state with the fetched bets
+  //   } catch (error) {
+  //     console.error("Error fetching user bets from The Graph:", error);
+  //   }
+  // };
+
+  // useEffect(() => {
+  //   fetchUserBetsGraphData();
+  // }, []);
+
+  // useEffect(() => {
+  //   fetchGlobalFeedGraphData();
+  // }, []);
+
+
+
   const [chains, setChains] = useState(null);
   const [projectId, setProjectId] = useState(null);
   const [ethereumClient, setEthereumClient] = useState(null);
@@ -65,7 +149,6 @@ const MainPage = () => {
     if(!isConnected) {
       return false;
     }
-    console.log("checking chain id:", chain.id);
 
     if(chain?.id === 168587773) {
       return true;
@@ -154,7 +237,7 @@ const MainPage = () => {
   
   const account = useAccount({
     onConnect({ address, connector, isReconnected }) {
-      console.log('Connected', { address, connector, isReconnected })
+
     },
   })
 
@@ -381,8 +464,6 @@ const MainPage = () => {
       }
     };
 
-    console.log("state :", currentState);
-
     return (
       <div className={showHideClassName}>
         <section className="modal-main">
@@ -533,57 +614,31 @@ const MainPage = () => {
   }, [contract, wssProvider]);
 
   useEffect(() => {
-
-    if(wssProvider && contract) {
-      const fetchGlobalBets = async () => {
-    
-        try {
-          const betPlacedTopic = ethers.utils.id("BetPlaced(address,uint256,uint256,address,uint8,uint256)");
-          const latestBlock = await wssProvider.getBlockNumber();
-          const fromBlock = Math.max(0, latestBlock - 1000); // Adjust the range as needed 
-    
-          const filter = {
-            fromBlock: fromBlock,
-            toBlock: 'latest',
-            address: contractAddress,
-            topics: [betPlacedTopic] // Only the BetPlaced event topic
-          };
-    
-          let logs = await wssProvider.getLogs(filter);
-    
-          // Slice the logs to only handle the latest 8 bets before decoding
-          logs = logs.slice(-10);
-    
-          // Decode logs
-          const globalBets = logs.map((log, index) => {
-            try {
-              const parsedLog = contract.interface.parseLog(log);
-              const { user, betId, betAmount, tokenSelection, choice, raceId } = parsedLog.args;
-              return {
-                user: user.toString(),
-                betId: betId.toString(),
-                betAmount: ethers.utils.formatEther(betAmount),
-                tokenSelection: currencyNames[tokenSelection?.toLowerCase()] ?? "Unknown Currency",
-                choice: choice.toString(),
-                raceId: raceId.toString(),
-              };
-              
-            } catch (error) {
-              console.error(`Error processing global log index ${index}:`, log, error);
-              return null;
-            }
-          }).filter(event => event);
-    
-
-          setGlobalBets(globalBets); // Assume setGlobalBets updates a state variable for global bets
-        } catch (error) {
-          console.error("Error fetching global bets: ", error);
-        }
-      };
-    
-      fetchGlobalBets(); // Invoke the function to fetch global bets
-      if(contract && wssProvider) {
-      // Set up a listener for new BetPlaced events
+    const fetchGlobalFeedGraphData = async () => {
+      try {
+        const globalBetsResponse = await graphClient.query(globalBetsQuery).toPromise();
+  
+        // Assuming the response data is directly in globalBetsResponse.data.betPlaceds
+        // Map the response to match your state's structure if needed
+        const initialGlobalBets = globalBetsResponse.data.betPlaceds.map(bet => ({
+          user: bet.user,
+          betId: bet.betId,
+          betAmount: ethers.utils.formatEther(bet.betAmount),
+          tokenSelection: currencyNames[bet.tokenSelection?.toLowerCase()] ?? "Unknown Currency",
+          choice: bet.choice,
+          raceId: bet.raceId,
+        })).reverse();
+  
+        setGlobalBets(initialGlobalBets); // Update your state with the initial bets
+      } catch (error) {
+        console.error("Error fetching global feed data from The Graph:", error);
+      }
+    };
+  
+    if (wssProvider && contract) {
+      fetchGlobalFeedGraphData(); // Fetch initial data from The Graph
+  
+      // Listener setup remains unchanged
       contract.on(contract.filters.BetPlaced(), (user, betId, betAmount, tokenSelection, choice, raceId) => {
         const newGlobalBet = {
           user: user.toString(),
@@ -593,19 +648,15 @@ const MainPage = () => {
           choice: choice.toString(),
           raceId: raceId.toString(),
         };
-    
-        setGlobalBets(prevBets => [...prevBets, newGlobalBet].slice(-10)); // Keep only the last 8 bets
+  
+        setGlobalBets(prevBets => [...prevBets, newGlobalBet].slice(-10)); // Keep only the last 10 bets
       });
-      }
-
-    
+  
       return () => {
         // Clean up the listener when the component is unmounted
         contract.removeAllListeners(contract.filters.BetPlaced());
       };
     }
-  
-
   }, [wssProvider, contract]); 
 
   useEffect(() => {
@@ -628,41 +679,68 @@ const MainPage = () => {
     
       fetchContractState();
     }
-    console.log("stateeffect :", currentState);
-    console.log("contract :", contract);
-
   }, [currentRequestId, currentResponse, gameStarted, contract]); 
 
-  useEffect(() => {
-    if (wssProvider && contract && isConnected) {
-      console.log("address :",address);
-      console.log("account address :", account.address);    
-    
-      fetchBetsAndUpdateStatus(); // Invoke the function to fetch bets and update statuses
-      if(contract && wssProvider) {
-      // Set up a listener for new BetPlaced events
-      contract.on(contract.filters.BetPlaced(), (user, betId, betAmount, tokenSelection, choice, raceId) => {
-        const newBet = {
-          betId: betId.toString(),
-          betAmount: ethers.utils.formatEther(betAmount),
-          tokenSelection: currencyNames[tokenSelection?.toLowerCase()] ?? "Unknown Currency",
-          choice: choice.toString(),
-          raceId: raceId.toString(),
-          status: "pending" // Initial status for new bets
-        };
-    
-        setRecentBets(prevBets => [...prevBets, newBet].slice(-5)); // Keep only the last 4 bets
-      });
-      }
+  const fetchUserBetsGraphData = async () => {
+    if (!address) return; // Ensure address is available
+    const userBetsQuery = getUserFeedQuery(address);
+    try {
+      const userBetsResponse = await graphClient.query(userBetsQuery).toPromise();
 
+      // Map and reverse the initial bets for proper display order
+      let initialUserBets = userBetsResponse.data.betPlaceds.map(bet => ({
+        user: bet.user,
+        betId: bet.betId,
+        betAmount: ethers.utils.formatEther(bet.betAmount),
+        tokenSelection: currencyNames[bet.tokenSelection?.toLowerCase()] ?? "Unknown Currency",
+        choice: bet.choice,
+        raceId: bet.raceId,
+        status: "pending" // Default status, will be updated below
+      })).reverse();
+
+      // Update bet statuses and claimed statuses
+      initialUserBets = await Promise.all(initialUserBets.map(async bet => {
+        const status = await updateBetStatus(bet);
+        const claimedStatus = await checkClaimedStatus(bet);
+        return { ...bet, status, claimedStatus }; // Combine status updates
+      }));
+
+      setRecentBets(initialUserBets); // Set the initial list of bets with updated statuses
+    } catch (error) {
+      console.error("Error fetching user bets from The Graph:", error);
+    }
+  };
+
+  useEffect(() => {
+ 
+    if (wssProvider && contract && isConnected) {
+      fetchUserBetsGraphData(); // Fetch initial data from The Graph
+  
+      // Listener for new BetPlaced events
+      const betPlacedListener = (user, betId, betAmount, tokenSelection, choice, raceId) => {
+        if (user === address) {
+          const newBet = {
+            user: user.toString(),
+            betId: betId.toString(),
+            betAmount: ethers.utils.formatEther(betAmount),
+            tokenSelection: currencyNames[tokenSelection?.toLowerCase()] ?? "Unknown Currency",
+            choice: choice.toString(),
+            raceId: raceId.toString(),
+            status: "pending" // Initial status for new bets
+          };
     
+          setRecentBets(prevBets => [...prevBets, newBet].slice(-5)); // Keep the last 5 bets
+        }
+      };
+  
+      contract.on(contract.filters.BetPlaced(), betPlacedListener);
+  
       return () => {
         // Clean up the listener when the component is unmounted
         contract.removeAllListeners(contract.filters.BetPlaced());
       };
     }
- 
-  }, [address, currentResponse, wssProvider, contract, isConnected]); // Empty dependency array, so it only runs once when the component is mounted
+  }, [address, isConnected, wssProvider, contract]);
 
   const checkClaimedStatus = async (bet) => {
     const provider = new ethers.providers.Web3Provider(window.ethereum);
@@ -680,71 +758,71 @@ const MainPage = () => {
     return userShares && userShares.gt(0) ? "unclaimed" : "claimed";
   };
 
-  const fetchBetsAndUpdateStatus = async () => {
-    if(!checkNetwork()) {return;};
-    try {
-      // Define the filter and fetch logs
-      const betPlacedTopic = ethers.utils.id("BetPlaced(address,uint256,uint256,address,uint8,uint256)");
-      const latestBlock = await wssProvider.getBlockNumber();
-      const fromBlock = Math.max(0, latestBlock -1000);
+  // const fetchBetsAndUpdateStatus = async () => {
+  //   if(!checkNetwork()) {return;};
+  //   try {
+  //     // Define the filter and fetch logs
+  //     const betPlacedTopic = ethers.utils.id("BetPlaced(address,uint256,uint256,address,uint8,uint256)");
+  //     const latestBlock = await wssProvider.getBlockNumber();
+  //     const fromBlock = Math.max(0, latestBlock -1000);
 
-      const userAddress = address;
+  //     const userAddress = address;
 
-      const filter = {
-        fromBlock: fromBlock,
-        toBlock: 'latest',
-        address: contractAddress,
-        topics: [betPlacedTopic, ethers.utils.hexZeroPad(userAddress, 32)]
-      };
+  //     const filter = {
+  //       fromBlock: fromBlock,
+  //       toBlock: 'latest',
+  //       address: contractAddress,
+  //       topics: [betPlacedTopic, ethers.utils.hexZeroPad(userAddress, 32)]
+  //     };
 
-      let logs = await wssProvider.getLogs(filter);
+  //     let logs = await wssProvider.getLogs(filter);
 
-      // Slice the logs to only handle the latest 4 bets before decoding
-      logs = logs.slice(-5);
+  //     // Slice the logs to only handle the latest 4 bets before decoding
+  //     logs = logs.slice(-5);
 
-      // Decode logs and set initial bets
-      const decodedEvents = logs.map((log, index) => {
-        try {
-          const parsedLog = contract.interface.parseLog(log);
-          const { betId, betAmount, tokenSelection, choice, raceId } = parsedLog.args;
-          return {
-            betId: betId?.toString() ?? "undefined betId",
-            betAmount: betAmount ? ethers.utils.formatEther(betAmount) : "undefined betAmount",
-            tokenSelection: currencyNames[tokenSelection?.toLowerCase()] ?? "undefined tokenSelection",
-            choice: choice?.toString() ?? "undefined choice",
-            raceId: raceId?.toString() ?? "undefined raceId",
-            status: "pending" // Initially set all bets to pending
-          };
+  //     // Decode logs and set initial bets
+  //     const decodedEvents = logs.map((log, index) => {
+  //       try {
+  //         const parsedLog = contract.interface.parseLog(log);
+  //         const { betId, betAmount, tokenSelection, choice, raceId } = parsedLog.args;
+  //         return {
+  //           betId: betId?.toString() ?? "undefined betId",
+  //           betAmount: betAmount ? ethers.utils.formatEther(betAmount) : "undefined betAmount",
+  //           tokenSelection: currencyNames[tokenSelection?.toLowerCase()] ?? "undefined tokenSelection",
+  //           choice: choice?.toString() ?? "undefined choice",
+  //           raceId: raceId?.toString() ?? "undefined raceId",
+  //           status: "pending" // Initially set all bets to pending
+  //         };
           
-        } catch (error) {
-          console.error(`Error processing log index ${index}:`, log, error);
-          return null; // or some other error handling
-        }
-      }).filter(event => event);
+  //       } catch (error) {
+  //         console.error(`Error processing log index ${index}:`, log, error);
+  //         return null; // or some other error handling
+  //       }
+  //     }).filter(event => event);
 
-      // Update bet statuses based on race results and claim status
-      const updatedBets = await Promise.all(decodedEvents.map(async bet => {
-        const status = await updateBetStatus(bet); // existing status update function
-        const claimedStatus = await checkClaimedStatus(bet); // new claimed status check
-        return { ...bet, status, claimedStatus };  // Return the bet with the updated statuses
-      }));
+  //     // Update bet statuses based on race results and claim status
+  //     const updatedBets = await Promise.all(decodedEvents.map(async bet => {
+  //       const status = await updateBetStatus(bet); // existing status update function
+  //       const claimedStatus = await checkClaimedStatus(bet); // new claimed status check
+  //       return { ...bet, status, claimedStatus };  // Return the bet with the updated statuses
+  //     }));
 
-      setRecentBets(updatedBets); // Update the state again with the statuses
-    } catch (error) {
-      console.error("Error fetching events: ", error);
-      const retryDelay = 1000; // Delay in milliseconds, e.g., 3000ms for 3 seconds
-      setTimeout(() => {
-        fetchBetsAndUpdateStatus();
-      }, retryDelay);
-    }
-  };
+  //     setRecentBets(updatedBets); // Update the state again with the statuses
+  //   } catch (error) {
+  //     console.error("Error fetching events: ", error);
+  //     const retryDelay = 1000; // Delay in milliseconds, e.g., 3000ms for 3 seconds
+  //     setTimeout(() => {
+  //       fetchBetsAndUpdateStatus();
+  //     }, retryDelay);
+  //   }
+  // };
 
   const updateBetStatus = async (bet) => {  
     try {
       const vrfResult = await contract.rawVrfList(bet.raceId);
       if (vrfResult && vrfResult > 0) {
         const raceWinner = await contract.raceWinner(bet.raceId);
-        return raceWinner.toString() === bet.choice ? 'won' : 'lost';
+        return raceWinner.toString() == bet.choice ? 'won' : 'lost';
       } else {
         return 'pending';  // Still pending if VRF result is not greater than 0
       }
@@ -935,8 +1013,6 @@ const MainPage = () => {
             if(parseFloat(userShares) == 0) {
               setUserBalance(parseFloat(0).toFixed(2));
             } else {
-
-
             const pool = await contract.housePools(currencyAddress);
 
             // Convert all BigNumbers to numbers for calculation
@@ -945,7 +1021,7 @@ const MainPage = () => {
             const rawHBalanceNum = pool.totalBalance.sub(1);
 
             // Calculate the user's share of the total balance
-            const userShareOfTotalBalance = (userSharesNum.div(rawHSharesNum)).mul(rawHBalanceNum);
+            const userShareOfTotalBalance = userSharesNum.mul(rawHBalanceNum).div(rawHSharesNum);
 
             setUserBalance(userShareOfTotalBalance);
           }
@@ -961,7 +1037,7 @@ useEffect(() => {
   }
 
   // Re-fetch the total balance whenever the currencyAddress changes
-}, [currencyAddress, currentResponse, contract]);
+}, [currencyAddress, currentResponse, contract, address]);
 
   useEffect(() => {
     if(contract) {
@@ -1616,7 +1692,7 @@ useEffect(() => {
                     <div className='bet-result-title'>Bet Results
                     <button 
                       className="refresh-button"
-                      onClick={fetchBetsAndUpdateStatus}
+                      onClick={fetchUserBetsGraphData}
                     >
                       <img className="refresh-img" src={refreshIcon} width="15px" height="15px"/>
                     </button>
